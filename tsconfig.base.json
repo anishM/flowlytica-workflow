@@ -1,0 +1,58 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2021", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@activepieces/common-ai": [
+        "packages/pieces/community/common-ai/src/index.ts"
+      ],
+      "@activepieces/ee-auth": ["packages/ee/auth/src/index.ts"],
+      "@activepieces/ee-shared": ["packages/ee/shared/src/index.ts"],
+      "@activepieces/ee/billing/ui": ["packages/ee/billing/ui/src/index.ts"],
+      "@activepieces/engine": ["packages/engine/src/main.ts"],
+      "@activepieces/pieces-common": [
+        "packages/pieces/community/common/src/index.ts"
+      ],
+      "@activepieces/pieces-framework": [
+        "packages/pieces/community/framework/src/index.ts"
+      ],
+      "@activepieces/piece-facebook-leads": [
+        "packages/pieces/community/facebook-leads/src/index.ts"
+      ],
+      "@activepieces/piece-intercom": [
+        "packages/pieces/community/intercom/src/index.ts"
+      ],
+      "@activepieces/piece-slack": [
+        "packages/pieces/community/slack/src/index.ts"
+      ],
+      "@activepieces/piece-square": [
+        "packages/pieces/community/square/src/index.ts"
+      ],
+      "@activepieces/server-shared": ["packages/server/shared/src/index.ts"],
+      "@activepieces/shared": ["packages/shared/src/index.ts"],
+      "@ee/*": ["packages/ee/*"],
+      "ee-embed-sdk": ["packages/ee/ui/embed-sdk/src/index.ts"],
+      "server-worker": ["packages/server/worker/src/index.ts"],
+      "ui-feature-forms": ["packages/ui/features-forms/src/index.ts"],
+      "@activepieces/piece-kissflow": [
+        "packages/pieces/community/kissflow/src/index.ts"
+      ]
+    },
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules", "tmp"]
+}

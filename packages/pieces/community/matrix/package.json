@@ -1,0 +1,7 @@
+{
+  "name": "@activepieces/piece-matrix",
+  "version": "0.3.14",
+  "dependencies": {
+    "marked": "4.3.0"
+  }
+}

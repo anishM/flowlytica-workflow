@@ -1,0 +1,23 @@
+{
+  "name": "flowlytics",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/pieces/community/flowlytics/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/pieces/community/flowlytics",
+        "main": "packages/pieces/community/flowlytics/src/index.ts",
+        "tsConfig": "packages/pieces/community/flowlytics/tsconfig.json"
+      }
+    }
+  },
+  "displayName": "Flowlytics Data Integration",
+  "description": "Trigger to integrate Flowlytics data with token-based authentication.",
+  "version": "0.1.0",
+  "authors": ["Flowlytics Team"],
+  "tags": ["data", "integration", "trigger", "flowlytics"],
+  "icon": "logo-dark.svg"
+}

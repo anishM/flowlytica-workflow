@@ -1,0 +1,18 @@
+{
+    "name": "@activepieces/piece-flowlytics",
+    "version": "0.1.0",
+    "dependencies": {
+        "@activepieces/pieces-framework": "*",
+        "@activepieces/pieces-common": "*",
+        "tslib": "^2.6.2",
+        "dayjs": "^1.11.10"
+    },
+    "peerDependencies": {
+        "@activepieces/pieces-framework": "*",
+        "@activepieces/pieces-common": "*"
+    },
+    "scripts": {
+        "build": "tsc -b",
+        "test": "jest"
+    }
+}
