@@ -4,7 +4,7 @@ import { flowlyticsDataTrigger } from './lib/triggers/data-trigger';
 
 export const flowlytics = createPiece({
     displayName: 'Flowlytics',
-    logoUrl: 'https://cdn.flowlytics.com/brand/logo.svg',
+    logoUrl: '/images/flowlytics-favicon.svg',
     minimumSupportedRelease: '0.5.0',
     authors: ['Flowlytics'],
     auth: flowlyticsAuth,

@@ -4,7 +4,7 @@ description: ''
 icon: 'gear'
 ---
 
-To configure activepieces, you will need to set some environment variables, There is file called `.env` at the root directory for our main repo.
+To configure Flowlytics - Workflow, you will need to set some environment variables. There is file called `.env` at the root directory for our main repo.
 
 <Tip> When you execute the [tools/deploy.sh](https://github.com/activepieces/activepieces/blob/main/tools/deploy.sh) script in the Docker installation tutorial, 
 it will produce these values. </Tip>
@@ -14,9 +14,9 @@ it will produce these values. </Tip>
 | Variable                           | Description                                                                                                                                                                                                          | Default Value                                                                  | Example                                                                |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
 | `AP_CONFIG_PATH`                   | Optional parameter for specifying the path to store SQLite3 and local settings.                                                                                                                                      | `~/.activepieces`                                                              |                                                                        |
-| `AP_CLOUD_AUTH_ENABLED`            | Turn off the utilization of Activepieces oauth2 applications                                                                                                                                                         | `false`                                                                        |                                                                        |
+| `AP_CLOUD_AUTH_ENABLED`            | Turn off the utilization of Flowlytics - Workflow OAuth2 applications                                                                                                                                               | `false`                                                                        |                                                                        |
 | `AP_DB_TYPE`                       | The type of database to use. (POSTGRES / SQLITE3)                                                                                                                                                                    | `SQLITE3`                                                                      |                                                                        |
-| `AP_EXECUTION_MODE`                | You can choose between 'SANDBOX_PROCESS', 'UNSANDBOXED', 'SANDBOX_CODE_ONLY', 'SANDBOX_CODE_AND_PROCESS' as possible values. If you decide to change this, make sure to carefully read https://www.activepieces.com/docs/install/architecture/workers                                                                | `UNSANDBOXED`                                                                  |                                                                        |
+| `AP_EXECUTION_MODE`                | You can choose between 'SANDBOX_PROCESS', 'UNSANDBOXED', 'SANDBOX_CODE_ONLY', 'SANDBOX_CODE_AND_PROCESS' as possible values. If you decide to change this, make sure to carefully read https://www.flowlytics.com/docs/install/architecture/workers                                                                | `UNSANDBOXED`                                                                  |                                                                        |
 | `AP_WORKER_CONCURRENCY`  | The number of different scheduled worker jobs can be processed in same time                                                                                                                                                | `10`                                                                           |
 | `AP_AGENTS_WORKER_CONCURRENCY`     | The number of different agents can be processed in same time                                                                                                                                                         | `10`                                                                           |
 | `AP_ENCRYPTION_KEY`                | ❗️ Encryption key used for connections is a 32-character (16 bytes) hexadecimal key. You can generate one using the following command: `openssl rand -hex 16`.                                                                                                                                                                              | None                                                                         |
@@ -82,12 +82,12 @@ it will produce these values. </Tip>
 | `AP_MAX_MCPS_PER_PROJECT` | The maximum allowed number of mcp per project | `20` | `20`
 | `AP_ENABLE_FLOW_ON_PUBLISH` | Whether publishing a new flow version should automatically enable the flow | `true` | `false`  
 | `AP_ISSUE_ARCHIVE_DAYS`            | Controls the automatic archival of issues in the system. Issues that have not been updated for this many days will be automatically moved to an archived state.| `14`  | `1`
-| `AP_APP_TITLE` | Initial title shown in the browser tab while loading the app | `Activepieces`  | `Activepieces`
-| `AP_FAVICON_URL` | Initial favicon shown in the browser tab while loading the app | `https://cdn.activepieces.com/brand/favicon.ico` | `https://cdn.activepieces.com/brand/favicon.ico`
+| `AP_APP_TITLE` | Initial title shown in the browser tab while loading the app | `Flowlytics - Workflow`  | `Flowlytics - Workflow`
+| `AP_FAVICON_URL` | Initial favicon shown in the browser tab while loading the app | `/images/flowlytics-favicon.svg` | `/images/flowlytics-favicon.svg`
 
 ### OpenTelemetry Configuration
 
-Activepieces supports both standard OpenTelemetry environment variables and vendor-specific configuration for observability and tracing.
+Flowlytics - Workflow supports both standard OpenTelemetry environment variables and vendor-specific configuration for observability and tracing.
 
 #### OpenTelemetry Environment Variables
 

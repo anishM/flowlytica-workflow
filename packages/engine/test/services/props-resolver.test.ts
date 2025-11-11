@@ -363,7 +363,7 @@ describe('Props resolver', () => {
         const input = {
             documents: [
                 {
-                    file: 'https://cdn.activepieces.com/brand/logo.svg?token=123',
+                    file: '/images/flowlytics-favicon.svg?token=123',
                 },
             ],
         }
@@ -424,7 +424,7 @@ describe('Props resolver', () => {
     })
     it('should return images for image url', async () => {
         const input = {
-            file: 'https://cdn.activepieces.com/brand/logo.svg?token=123',
+            file: '/images/flowlytics-favicon.svg?token=123',
         }
         const props = {
             file: Property.File({
