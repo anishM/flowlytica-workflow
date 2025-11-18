@@ -23,7 +23,7 @@ export const smartsuite = createPiece({
   displayName: 'SmartSuite',
   description:
     'Collaborative work management platform combining databases with spreadsheets.',
-  logoUrl: 'https://cdn.activepieces.com/pieces/smartsuite.png',
+  logoUrl: '/images/pieces/smartsuite.png',
   categories: [PieceCategory.PRODUCTIVITY],
   auth: smartsuiteAuth,
   minimumSupportedRelease: '0.30.0',

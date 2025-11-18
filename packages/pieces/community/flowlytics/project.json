@@ -10,7 +10,16 @@
       "options": {
         "outputPath": "dist/packages/pieces/community/flowlytics",
         "main": "packages/pieces/community/flowlytics/src/index.ts",
-        "tsConfig": "packages/pieces/community/flowlytics/tsconfig.json"
+        "tsConfig": "packages/pieces/community/flowlytics/tsconfig.json",
+        "assets": [
+          "packages/pieces/community/flowlytics/package.json",
+          {
+            "glob": "**/*",
+            "input": "packages/pieces/community/flowlytics/src",
+            "output": "dist/packages/pieces/community/flowlytics/src",
+            "ignore": ["**/*.ts"]
+          }
+        ]
       }
     }
   },

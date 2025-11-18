@@ -26,7 +26,7 @@ export const dittofeed = createPiece({
   displayName: "Dittofeed",
   auth: dittofeedAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/dittofeed.png",
+  logoUrl: "/images/pieces/dittofeed.png",
   authors: [
     'SmarterService'
   ],

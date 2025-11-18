@@ -41,7 +41,7 @@ export const socialkit = createPiece({
   displayName: "Socialkit",
   auth: socialkitAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/socialkit.png",
+  logoUrl: "/images/pieces/socialkit.png",
   authors: ['david-oluwaseun420'],
   categories: [PieceCategory.CONTENT_AND_FILES],
   actions: [

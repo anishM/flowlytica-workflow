@@ -48,7 +48,7 @@ export const reoonEmailVerify = createPiece({
   auth: reoonEmailVerifyAuth,
   minimumSupportedRelease: '0.30.0',
   categories: [PieceCategory.MARKETING],
-  logoUrl: 'https://cdn.activepieces.com/pieces/reoon-verifier.png',
+  logoUrl: '/images/pieces/reoon-verifier.png',
   description:
     'Email validation service that cleans invalid, temporary & unsafe email addresses.',
   authors: ['AnneMariel95'],

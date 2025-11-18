@@ -23,7 +23,7 @@ export const jinaAi = createPiece({
   description: 'AI-powered web content extraction, search, and classification',
   auth: jinaAiAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/jinaai.jpeg',
+  logoUrl: '/images/pieces/jina-ai.jpeg',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ['denieler'],
   actions: [

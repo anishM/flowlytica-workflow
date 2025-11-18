@@ -49,7 +49,7 @@ import { PieceCategory } from "@activepieces/shared";
       displayName: "Eden AI",
       auth: edenAiAuth,
       minimumSupportedRelease: '0.36.1',
-      logoUrl: "https://cdn.activepieces.com/pieces/eden-ai.png",
+      logoUrl: "/images/pieces/eden-ai.png",
       authors: ["sparkybug"],
       description: "Eden AI is a platform that provides a range of AI services, including text generation, summarization, translation, and more.",
       categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],

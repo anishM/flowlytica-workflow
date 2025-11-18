@@ -100,7 +100,7 @@ export const wordpress = createPiece({
   description: 'Open-source website creation software',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/wordpress.png',
+  logoUrl: '/images/pieces/wordpress.png',
   categories: [PieceCategory.MARKETING],
   auth: wordpressAuth,
   authors: [

@@ -19,7 +19,7 @@ export const codaAuth = PieceAuth.SecretText({
 
 export const coda = createPiece({
 	displayName: 'Coda',
-	logoUrl: 'https://cdn.activepieces.com/pieces/coda.png',
+	logoUrl: '/images/pieces/coda.png',
 	categories: [PieceCategory.PRODUCTIVITY],
 	auth: codaAuth,
 	authors: ['onyedikachi-david', 'kishanprmr','rimjhimyadav'],

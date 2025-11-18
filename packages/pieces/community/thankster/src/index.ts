@@ -12,7 +12,7 @@
       displayName: "Thankster",
       auth: thanksterAuth,
       minimumSupportedRelease: '0.36.1',
-      logoUrl: "https://cdn.activepieces.com/pieces/thankster.png",
+      logoUrl: "/images/pieces/thankster.png",
       authors: [],
       actions: [sendCards],
       triggers: [],

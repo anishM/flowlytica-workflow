@@ -57,7 +57,7 @@ export const upgradechat = createPiece({
     'Supercharge your Discord or Telegram communities with subscription payments and membership tools.',
   auth: upgradechatAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/upgradechat.png',
+  logoUrl: '/images/pieces/upgradechat.png',
   authors: ['Trayshmhirk', 'OmarSayed'],
   categories: [PieceCategory.SALES_AND_CRM],
   actions: [

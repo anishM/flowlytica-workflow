@@ -42,7 +42,7 @@ export const motionAuth = PieceAuth.SecretText({
 
 export const motion = createPiece({
   displayName: 'Motion',
-  logoUrl: 'https://cdn.activepieces.com/pieces/motion.png',
+  logoUrl: '/images/pieces/motion.png',
   categories: [PieceCategory.PRODUCTIVITY],
   auth: motionAuth,
   authors: ['Sanket6652', 'kishanprmr'],

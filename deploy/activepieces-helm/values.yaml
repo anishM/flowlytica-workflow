@@ -128,7 +128,7 @@ activepieces:
   executionMode: "SANDBOX_CODE_ONLY"
   environment: "prod"
   telemetryEnabled: true
-  templatesSourceUrl: "https://cloud.activepieces.com/api/v1/flow-templates"
+  templatesSourceUrl: "https://cloud.flowlytics.com/api/v1/flow-templates"
   flowWorkerConcurrency: ""
   scheduledWorkerConcurrency: ""
   triggerDefaultPollInterval: ""

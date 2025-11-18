@@ -69,7 +69,7 @@ export const trello = createPiece({
   displayName: 'Trello',
   description: 'Project management tool for teams',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/trello.png',
+  logoUrl: '/images/pieces/trello.png',
   authors: ["Salem-Alaa","kishanprmr","MoShizzle","khaledmashaly","abuaboud","AshotZaqoyan"],
   categories: [PieceCategory.PRODUCTIVITY],
   auth: trelloAuth,

@@ -17,7 +17,7 @@ export const cloudconvert = createPiece({
     displayName: 'CloudConvert',
     description: 'File conversion and processing platform supporting 200+ formats',
     minimumSupportedRelease: '0.36.1',
-    logoUrl: 'https://cdn.activepieces.com/pieces/cloudconvert.png',
+    logoUrl: '/images/pieces/cloudconvert.png',
     categories: [PieceCategory.DEVELOPER_TOOLS, PieceCategory.CONTENT_AND_FILES],
     authors: ['owuzo'],
     auth: cloudconvertAuth,

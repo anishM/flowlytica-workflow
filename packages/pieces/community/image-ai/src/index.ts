@@ -6,7 +6,7 @@ export const imageAi = createPiece({
   displayName: 'Image AI',
   auth: PieceAuth.None(),
   minimumSupportedRelease: '0.68.3',
-  logoUrl: 'https://cdn.activepieces.com/pieces/image-ai.svg',
+  logoUrl: '/images/pieces/image-ai.svg',
   categories: [
     PieceCategory.ARTIFICIAL_INTELLIGENCE,
     PieceCategory.UNIVERSAL_AI,

@@ -12,7 +12,7 @@ export const sitespeakai = createPiece({
   description: "Integrate with Sitespeakai to leverage AI-powered chatbots and enhance user interactions on your website.",
   auth: SiteSpeakAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/sitespeakai.png",
+  logoUrl: "/images/pieces/sitespeakai.png",
   categories:[PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ["Niket2035"],
   actions: [sendQuery, createFinetune, deleteFinetune],

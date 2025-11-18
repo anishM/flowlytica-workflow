@@ -24,6 +24,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { aiProviderApi } from '@/features/platform-admin/lib/ai-provider-api';
+import aiProviderIcon from '@/assets/img/custom/ai-provider.svg';
 import { flagsHooks } from '@/hooks/flags-hooks';
 import {
   CreateAIProviderRequest,
@@ -137,7 +138,7 @@ export const UpsertAIProviderDialog = ({
                             className="flex items-center gap-2 cursor-pointer text-sm"
                           >
                             <img
-                              src="https://cdn.activepieces.com/pieces/openai.png"
+                              src={aiProviderIcon}
                               alt="OpenAI"
                               className="w-4 h-4"
                             />
@@ -151,7 +152,7 @@ export const UpsertAIProviderDialog = ({
                             className="flex items-center gap-2 cursor-pointer text-sm"
                           >
                             <img
-                              src="https://cdn.activepieces.com/pieces/azure-openai.png"
+                              src={aiProviderIcon}
                               alt="Azure OpenAI"
                               className="w-4 h-4"
                             />

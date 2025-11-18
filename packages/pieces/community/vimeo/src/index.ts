@@ -15,7 +15,7 @@ export const vimeo = createPiece({
   displayName: "Vimeo",
   auth: vimeoAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/vimeo.png",
+  logoUrl: "/images/pieces/vimeo.png",
   categories: [PieceCategory.CONTENT_AND_FILES],
   authors: ['privatestefans','sanket-a11y'],
   actions: [

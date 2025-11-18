@@ -78,7 +78,7 @@ const SigningKeysPage = () => {
                 rel="noopener noreferrer"
                 target="_blank"
                 className="font-medium text-primary underline underline-offset-4"
-                to="https://www.activepieces.com/docs/embedding/provision-users"
+                to="https://www.flowlytics.com/docs/embedding/provision-users"
               >
                 JavaScript SDK
               </Link>{' '}

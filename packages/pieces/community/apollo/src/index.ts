@@ -12,7 +12,7 @@ export const apollo = createPiece({
   displayName: "Apollo",
   auth: apolloAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: "https://cdn.activepieces.com/pieces/apollo.png",
+  logoUrl: "/images/pieces/apollo.png",
   authors: ['abuaboud'],
   actions: [matchPerson, enrichCompany],
   triggers: [],

@@ -37,7 +37,7 @@ export const cognitoFormsAuth = PieceAuth.SecretText({
 export const cognitoForms = createPiece({
   displayName: 'Cognito Forms',
   auth: cognitoFormsAuth,
-  logoUrl: 'https://cdn.activepieces.com/pieces/cognito-forms.png',
+  logoUrl: '/images/pieces/cognito-forms.png',
   authors: ['krushnarout'],
   categories: [PieceCategory.PRODUCTIVITY, PieceCategory.FORMS_AND_SURVEYS],
   actions: [

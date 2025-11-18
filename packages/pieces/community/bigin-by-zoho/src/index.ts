@@ -90,7 +90,7 @@ export const biginByZoho = createPiece({
   auth: biginAuth,
   minimumSupportedRelease: '0.36.1',
   categories: [PieceCategory.SALES_AND_CRM],
-  logoUrl: 'https://cdn.activepieces.com/pieces/bigin-by-zoho.png',
+  logoUrl: '/images/pieces/bigin-by-zoho.png',
   authors: ['gs03dev'],
   actions: [
     createCompany,

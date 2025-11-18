@@ -15,7 +15,7 @@ export const vadooAi = createPiece({
   displayName: 'Vadoo AI',
   auth: vadooAiAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/vadoo-ai.png',
+  logoUrl: '/images/pieces/vadoo-ai.png',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ['fortunamide'],
   actions: [

@@ -39,7 +39,7 @@ export const rabbitmq = createPiece({
   displayName: "RabbitMQ",
   auth: rabbitmqAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: "https://cdn.activepieces.com/pieces/rabbitmq.png",
+  logoUrl: "/images/pieces/rabbitmq.png",
   authors: [
     "alinperghel"
   ],

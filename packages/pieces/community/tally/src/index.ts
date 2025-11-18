@@ -6,7 +6,7 @@ export const tally = createPiece({
   description: 'Receive form submissions from Tally forms',
   auth: PieceAuth.None(),
   minimumSupportedRelease: '0.27.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/tally.png',
+  logoUrl: '/images/pieces/tally.png',
   categories: [PieceCategory.FORMS_AND_SURVEYS],
   authors: ["kishanprmr","abuaboud"],
   actions: [],

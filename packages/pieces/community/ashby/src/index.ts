@@ -15,7 +15,7 @@ export const ashby = createPiece({
   displayName: 'Ashby',
   auth: ashbyAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/ashby.png',
+  logoUrl: '/images/pieces/ashby.png',
   authors: ['AdamSelene'],
   actions: [
     createCustomApiCallAction({

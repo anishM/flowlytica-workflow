@@ -24,7 +24,7 @@ export const timelinesAi = createPiece({
   displayName: 'TimelinesAI',
   auth: timelinesAiAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/timelines-ai.png',
+  logoUrl: '/images/pieces/timelines-ai.png',
   authors: ['LuizDMM', 'sanket-a11y'],
   categories: [PieceCategory.MARKETING, PieceCategory.COMMUNICATION],
   actions: [

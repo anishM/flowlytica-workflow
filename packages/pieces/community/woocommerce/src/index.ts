@@ -61,7 +61,7 @@ export const woocommerce = createPiece({
   displayName: 'WooCommerce',
   description: 'E-commerce platform built on WordPress',
 
-  logoUrl: 'https://cdn.activepieces.com/pieces/woocommerce.png',
+  logoUrl: '/images/pieces/woocommerce.png',
   categories: [PieceCategory.COMMERCE],
   auth: wooAuth,
   minimumSupportedRelease: '0.30.0',

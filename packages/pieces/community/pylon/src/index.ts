@@ -10,7 +10,7 @@ export const pylon = createPiece({
   displayName: "Pylon",
   auth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/pylon.png",
+  logoUrl: "/images/pieces/pylon.png",
   authors: [],
   actions: [
     createCustomApiCallAction({

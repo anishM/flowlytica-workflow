@@ -13,7 +13,7 @@ export const returningAi = createPiece({
   displayName: 'Returning AI',
   auth: returningAiAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: `https://cdn.activepieces.com/pieces/returning-ai.png`,
+  logoUrl: `https://cdn.flowlytics.com/pieces/returning-ai.png`,
   authors: ['mg-wunna'],
   actions: [sendMessage, replyMessage, reactMessage],
   triggers: [],

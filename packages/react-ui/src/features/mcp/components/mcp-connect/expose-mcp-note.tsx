@@ -21,7 +21,7 @@ export const ExposeMcpNote = () => {
       <AlertDescription>
         <strong>{t('Note')}: </strong>
         {t(
-          'If you would like to expose your MCP server to the internet, please set the AP_FRONTEND_URL environment variable to the public URL of your Activepieces instance.',
+          'If you would like to expose your MCP server to the internet, please set the AP_FRONTEND_URL environment variable to the public URL of your Flowlytics - Workflow instance.',
         )}
       </AlertDescription>
     </Alert>

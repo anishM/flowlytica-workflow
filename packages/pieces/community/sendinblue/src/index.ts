@@ -14,7 +14,7 @@ export const sendinblue = createPiece({
   description:
     'Formerly Sendinblue, is a SaaS solution for relationship marketing',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/brevo.png',
+  logoUrl: '/images/pieces/sendinblue.png',
   authors: ["kanarelo","BLaidzX","Salem-Alaa","kishanprmr","MoShizzle","khaledmashaly","abuaboud"],
   categories: [PieceCategory.MARKETING],
   auth: sendinblueAuth,

@@ -37,7 +37,7 @@ export const supadata = createPiece({
   displayName: 'Supadata',
   auth: supadataAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/supadata.svg',
+  logoUrl: '/images/pieces/supadata.svg',
   authors: ['rafalzawadzki'],
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE, PieceCategory.DEVELOPER_TOOLS, PieceCategory.CONTENT_AND_FILES],
   description: 'YouTube Transcripts',

@@ -18,7 +18,7 @@ export const bluesky = createPiece({
   displayName: 'Bluesky',
   auth: blueskyAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/bluesky.png',
+  logoUrl: '/images/pieces/bluesky.png',
   authors: ['Sanket6652'],
   categories: [PieceCategory.COMMUNICATION],
   actions: [createPost, likePost, repostPost, findPost, findThread],

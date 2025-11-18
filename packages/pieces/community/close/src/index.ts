@@ -40,7 +40,7 @@ export const close = createPiece({
   description: 'Sales automation and CRM integration for Close',
   auth: closeAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/close.png',
+  logoUrl: '/images/pieces/close.png',
   authors: ['Ani-4x', 'kishanprmr'],
   actions: [
     createLead,

@@ -34,7 +34,7 @@ export const filloutForms = createPiece({
 	description: 'Create interactive forms and automate workflows with Fillout',
 	auth: filloutFormsAuth,
 	minimumSupportedRelease: '0.36.1',
-	logoUrl: 'https://cdn.activepieces.com/pieces/fillout-forms.png',
+	logoUrl: '/images/pieces/fillout-forms.png',
 	categories: [PieceCategory.FORMS_AND_SURVEYS],
 	authors: ['Sanket6652', 'onyedikachi-david'],
 	actions: [

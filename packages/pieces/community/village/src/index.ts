@@ -26,7 +26,7 @@ export const village = createPiece({
   description: 'The Social Capital API',
   auth: villageAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/village.png',
+  logoUrl: '/images/pieces/village.png',
   categories: [
     PieceCategory.PRODUCTIVITY,
     PieceCategory.SALES_AND_CRM,

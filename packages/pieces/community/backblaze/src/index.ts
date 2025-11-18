@@ -188,7 +188,7 @@ export const backBlazeS3Auth = PieceAuth.CustomAuth({
 export const backblaze = createPiece({
   displayName: 'Backblaze',
   description: 'Scalable storage in the cloud',
-  logoUrl: 'https://cdn.activepieces.com/pieces/backblaze.png',
+  logoUrl: '/images/pieces/backblaze.png',
   minimumSupportedRelease: '0.30.0',
   authors: ["nhnansari","kishanprmr"],
   categories: [PieceCategory.DEVELOPER_TOOLS],

@@ -37,7 +37,7 @@ export const mailchimp = createPiece({
   displayName: 'Mailchimp',
   description: 'All-in-One integrated marketing platform for managing audiences, sending campaigns, tracking engagement, and automating lifecycle communications.',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/mailchimp.png',
+  logoUrl: '/images/pieces/mailchimp.png',
   authors: ["abdullahranginwala","TaskMagicKyle","kishanprmr","AbdulTheActivePiecer","khaledmashaly","abuaboud", "sparkybug", "onyedikachi-david"],
   categories: [PieceCategory.MARKETING],
   auth: mailchimpAuth,

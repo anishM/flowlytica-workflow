@@ -3,7 +3,7 @@ import { intercomAuth } from '../..';
 import { intercomClient } from '../common';
 
 export const replyFromAdmin = createTrigger({
-	// auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+	// auth: check https://www.flowlytics.com/docs/developers/piece-reference/authentication,
 	name: 'replyFromAdmin',
 	displayName: 'Reply from an Intercom admin',
 	description: 'Triggers when a reply is received from an Intercom admin (not a user or lead)',

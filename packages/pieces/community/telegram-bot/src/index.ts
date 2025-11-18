@@ -29,7 +29,7 @@ export const telegramBot = createPiece({
   displayName: 'Telegram Bot',
   description: 'Build chatbots for Telegram',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/telegram_bot.png',
+  logoUrl: '/images/pieces/telegram-bot.png',
   categories: [PieceCategory.COMMUNICATION],
   auth: telegramBotAuth,
   actions: [

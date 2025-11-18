@@ -178,7 +178,7 @@ export const amazonSes = createPiece({
   displayName: 'Amazon SES',
   auth: amazonSesAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/amazon-ses.png',
+  logoUrl: '/images/pieces/amazon-ses.png',
   authors: ["fortunamide"],
   actions: [
     sendEmail,

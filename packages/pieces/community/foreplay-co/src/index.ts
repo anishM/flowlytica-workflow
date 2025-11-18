@@ -13,7 +13,7 @@ export const foreplayCo = createPiece({
     required: true,
   }),
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/foreplay-co.png",
+  logoUrl: "/images/pieces/foreplay-co.png",
   categories: [PieceCategory.MARKETING],
   authors: ['fortunamide', 'onyedikachi-david'],
   actions: [getAdById, getAdsByPage, findBrands, findAds, findBoards],

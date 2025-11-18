@@ -43,7 +43,7 @@ export const mysql = createPiece({
   description: "The world's most popular open-source database",
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/mysql.png',
+  logoUrl: '/images/pieces/mysql.png',
   categories: [PieceCategory.DEVELOPER_TOOLS],
   authors: ["JanHolger","kishanprmr","khaledmashaly","abuaboud"],
   auth: mysqlAuth,

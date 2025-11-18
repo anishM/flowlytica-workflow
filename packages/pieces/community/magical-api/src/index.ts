@@ -14,7 +14,7 @@ export const magicalApi = createPiece({
   description: 'Automate resume parsing, review, scoring, and LinkedIn profile/company data retrieval with Magical API.',
   auth: magicalApiAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/magical-api.png',
+  logoUrl: '/images/pieces/magical-api.png',
   authors: ['Pranith124', 'sanket-a11y'],
   categories: [
     PieceCategory.HUMAN_RESOURCES,

@@ -27,7 +27,7 @@ export const openai = createPiece({
   description:
     'The free, Self-hosted, community-driven and local-first. Drop-in replacement for OpenAI running on consumer-grade hardware. No GPU required.',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/localai.jpeg',
+  logoUrl: '/images/pieces/localai.jpeg',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   auth: localaiAuth,
   actions: [

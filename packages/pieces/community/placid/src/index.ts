@@ -55,7 +55,7 @@ export const placid = createPiece({
 	description:
 		'Creative automation engine that generates dynamic images, PDFs, and videos from templates and data.',
 	minimumSupportedRelease: '0.30.0',
-	logoUrl: 'https://cdn.activepieces.com/pieces/placid.png',
+	logoUrl: '/images/pieces/placid.png',
 	categories: [PieceCategory.CONTENT_AND_FILES, PieceCategory.MARKETING],
 	auth: placidAuth,
 	actions: [

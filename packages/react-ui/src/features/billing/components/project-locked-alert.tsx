@@ -8,7 +8,12 @@ import { useAuthorization } from '@/hooks/authorization-hooks';
 import { flagsHooks } from '@/hooks/flags-hooks';
 import { projectHooks } from '@/hooks/project-hooks';
 import { userHooks } from '@/hooks/user-hooks';
-import { ApFlagId, Permission, PlatformRole } from '@activepieces/shared';
+import {
+  ApEdition,
+  ApFlagId,
+  Permission,
+  PlatformRole,
+} from '@activepieces/shared';
 
 import { Button } from '../../../components/ui/button';
 
@@ -18,6 +23,7 @@ export const ProjectLockedAlert = () => {
   const { data: showBilling } = flagsHooks.useFlag<boolean>(
     ApFlagId.SHOW_BILLING,
   );
+  const { data: edition } = flagsHooks.useFlag<ApEdition>(ApFlagId.EDITION);
   const { checkAccess } = useAuthorization();
   const openDialog = useManagePlanDialogStore((state) => state.openDialog);
   const currentUser = userHooks.useCurrentUser();
@@ -28,6 +34,8 @@ export const ProjectLockedAlert = () => {
   const showContactAdmin =
     !showBilling && currentUser.data?.platformRole !== PlatformRole.ADMIN;
   const showAdminNote = checkAccess(Permission.WRITE_PROJECT) && !showBilling;
+  const isCloudEdition = edition === ApEdition.CLOUD;
+  const showUpgradeButton = Boolean(showBilling && isCloudEdition);
   return (
     <Alert
       variant="default"
@@ -65,7 +73,7 @@ export const ProjectLockedAlert = () => {
           </AlertDescription>
         </div>
         <div className="flex flex-col gap-2 relative">
-          {showBilling && (
+          {showUpgradeButton && (
             <Button
               variant="outline"
               className="!text-primary"

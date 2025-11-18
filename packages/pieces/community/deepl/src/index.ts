@@ -48,7 +48,7 @@ export const deepl = createPiece({
   description: 'AI-powered language translation',
   auth: deeplAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/deepl.png',
+  logoUrl: '/images/pieces/deepl.png',
   categories: [],
   authors: ["BBND","kishanprmr","MoShizzle","abuaboud"],
   actions: [

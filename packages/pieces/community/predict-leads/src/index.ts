@@ -56,7 +56,7 @@ export const predictLeads = createPiece({
   auth: PredictLeadsAuth,
   description: `Company Intelligence Data Source`,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/predict-leads.png',
+  logoUrl: '/images/pieces/predict-leads.png',
   categories: [PieceCategory.BUSINESS_INTELLIGENCE, PieceCategory.SALES_AND_CRM, PieceCategory.MARKETING],
   authors: [
     'codegino',

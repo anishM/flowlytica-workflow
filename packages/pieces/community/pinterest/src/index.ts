@@ -14,7 +14,7 @@ export const pinterest = createPiece({
   displayName: 'Pinterest',
   auth: pinterestAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/pinterest.png',
+  logoUrl: '/images/pieces/pinterest.png',
   authors: ['Sanket6652'],
   actions: [
     createPin,

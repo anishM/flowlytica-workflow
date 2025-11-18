@@ -21,7 +21,7 @@ export const facebookLeads = createPiece({
 	displayName: 'Facebook Leads',
 	description: 'Capture leads from Facebook',
 	minimumSupportedRelease: '0.30.0',
-	logoUrl: 'https://cdn.activepieces.com/pieces/facebook.png',
+	logoUrl: '/images/pieces/facebook-leads.png',
 	authors: ['kishanprmr', 'MoShizzle', 'khaledmashaly', 'abuaboud', 'AbdulTheActivePiecer'],
 	categories: [PieceCategory.MARKETING],
 	auth: facebookLeadsAuth,

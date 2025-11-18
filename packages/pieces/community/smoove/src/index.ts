@@ -17,7 +17,7 @@ export const smoove = createPiece({
   description: "Smoove is a platform for creating and managing your email list and sending emails to your subscribers.",
   categories: [PieceCategory.MARKETING],
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/smoove.png",
+  logoUrl: "/images/pieces/smoove.png",
   authors: ['Sanket6652', 'onyedikachi-david'],
   actions: [addOrUpdateSubscriber, createAList, findSubscriber, unsubscribe],
   triggers: [newListCreated, newSubscriber, newFormCreated, newLeadSubmitted],

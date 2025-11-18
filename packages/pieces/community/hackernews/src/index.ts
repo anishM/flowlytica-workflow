@@ -6,7 +6,7 @@ export const hackernews = createPiece({
   description: 'A social news website',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/hackernews.png',
+  logoUrl: '/images/pieces/hackernews.png',
   auth: PieceAuth.None(),
   categories: [],
   authors: ["kishanprmr","AbdulTheActivePiecer","khaledmashaly","abuaboud"],

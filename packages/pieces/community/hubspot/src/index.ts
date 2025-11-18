@@ -112,7 +112,7 @@ export const hubspot = createPiece({
 	displayName: 'HubSpot',
 	description: 'Powerful CRM that offers tools for sales, customer service, and marketing automation.',
 	minimumSupportedRelease: '0.5.0',
-	logoUrl: 'https://cdn.activepieces.com/pieces/hubspot.png',
+	logoUrl: '/images/pieces/hubspot.png',
 	authors: ['Salem-Alaa', 'kishanprmr', 'MoShizzle', 'khaledmashaly', 'abuaboud'],
 	categories: [PieceCategory.SALES_AND_CRM],
 	auth: hubspotAuth,

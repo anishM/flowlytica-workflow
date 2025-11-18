@@ -61,7 +61,7 @@ export const togglTrack = createPiece({
   description: 'Toggl Track is a time tracking application that allows users to track their daily activities across different platforms.',
   auth: togglTrackAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/toggl-track.png',
+  logoUrl: '/images/pieces/toggl-track.png',
   categories: [PieceCategory.PRODUCTIVITY],
   authors: ["Pranith124", "onyedikachi-david"],
   actions: [

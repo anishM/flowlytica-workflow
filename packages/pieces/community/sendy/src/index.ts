@@ -17,7 +17,7 @@ export const sendy = createPiece({
   description: 'Self-hosted email marketing software',
   auth: sendyAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/sendy.png',
+  logoUrl: '/images/pieces/sendy.png',
   categories: [PieceCategory.MARKETING],
   authors: ["joeworkman","kishanprmr","abuaboud"],
   actions: [

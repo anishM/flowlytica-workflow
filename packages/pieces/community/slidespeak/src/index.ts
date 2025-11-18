@@ -42,7 +42,7 @@ export const slidespeak = createPiece({
   displayName: 'SlideSpeak',
   auth: slidespeakAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/slidespeak.png',
+  logoUrl: '/images/pieces/slidespeak.png',
   authors: ['rimjhimyadav'],
   categories:[PieceCategory.CONTENT_AND_FILES,PieceCategory.PRODUCTIVITY],
   actions: [

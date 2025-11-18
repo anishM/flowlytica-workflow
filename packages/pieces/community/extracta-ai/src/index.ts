@@ -15,7 +15,7 @@
       auth: extractaAiAuth,
       minimumSupportedRelease: '0.36.1',
       categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
-      logoUrl: "https://cdn.activepieces.com/pieces/extracta-ai.png",
+      logoUrl: "/images/pieces/extracta-ai.png",
       authors: ['fortunamide', 'onyedikachi-david'],
       actions: [extractFileData, uploadFile, getExtractionResults],
       triggers: [newDocumentProcessed, extractionFailed],

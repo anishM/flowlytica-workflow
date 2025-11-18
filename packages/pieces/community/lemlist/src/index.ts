@@ -19,7 +19,7 @@ export const lemlist = createPiece({
   displayName: 'Lemlist',
   auth: lemlistAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/lemlist.png',
+  logoUrl: '/images/pieces/lemlist.png',
   authors: ['gs03-dev'],
   actions: [
     markLeadFromOneCampaignAsInterested,

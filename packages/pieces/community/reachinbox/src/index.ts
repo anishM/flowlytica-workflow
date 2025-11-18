@@ -48,7 +48,7 @@ export const reachinbox = createPiece({
   displayName: 'Reachinbox',
   auth: ReachinboxAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/reachinbox.png',
+  logoUrl: '/images/pieces/reachinbox.png',
   categories: [PieceCategory.MARKETING],
   authors: ['support@reachinbox.ai', 'ManojKumard', 'Mitrajit'],
   actions: [

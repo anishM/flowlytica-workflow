@@ -119,7 +119,7 @@ export const SUPPORTED_AI_PROVIDERS: SupportedAIProvider[] = [
 
 It is strongly recommended that you add your credit card information to your OpenAI account and upgrade to the paid plan **before** generating the API Key. This will help you prevent 429 errors.
 `,
-        logoUrl: 'https://cdn.activepieces.com/pieces/openai.png',
+        logoUrl: 'https://cdn.flowlytics.com/pieces/openai.png',
         auth: {
             headerName: 'Authorization',
             bearer: true,
@@ -330,7 +330,7 @@ It is strongly recommended that you add your credit card information to your Ope
 1. Visit the following website: https://console.anthropic.com/settings/keys.
 2. Once on the website, locate and click on the option to obtain your Claude API Key.
 `,
-        logoUrl: 'https://cdn.activepieces.com/pieces/claude.png',
+        logoUrl: 'https://cdn.flowlytics.com/pieces/claude.png',
         auth: {
             headerName: 'x-api-key',
             bearer: false,
@@ -445,7 +445,7 @@ It is strongly recommended that you add your credit card information to your Ope
 1. Visit the following website: https://replicate.com/account/api-tokens.
 2. Once on the website, locate and click on the option to obtain your Replicate API Key.
 `,
-        logoUrl: 'https://cdn.activepieces.com/pieces/replicate.png',
+        logoUrl: 'https://cdn.flowlytics.com/pieces/replicate.png',
         auth: {
             headerName: 'Authorization',
             bearer: true,
@@ -479,7 +479,7 @@ It is strongly recommended that you add your credit card information to your Ope
 1. Visit the following website: https://console.cloud.google.com/apis/credentials.
 2. Once on the website, locate and click on the option to obtain your Google API Key.
 `,
-        logoUrl: 'https://cdn.activepieces.com/pieces/google-gemini.png',
+        logoUrl: 'https://cdn.flowlytics.com/pieces/google-gemini.png',
         auth: {
             headerName: 'x-goog-api-key',
             bearer: false,

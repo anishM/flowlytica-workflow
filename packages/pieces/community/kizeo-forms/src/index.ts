@@ -34,7 +34,7 @@ export const kizeoForms = createPiece({
   description: 'Create custom mobile forms',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/kizeo-forms.png',
+  logoUrl: '/images/pieces/kizeo-forms.png',
   authors: ["BastienMe","kishanprmr","MoShizzle","khaledmashaly","abuaboud"],
   categories: [PieceCategory.FORMS_AND_SURVEYS],
   auth: kizeoFormsAuth,

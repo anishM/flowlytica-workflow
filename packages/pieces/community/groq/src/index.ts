@@ -44,7 +44,7 @@ export const groq = createPiece({
   displayName: 'Groq',
   description: 'Use Groq\'s fast language models and audio processing capabilities.',
   minimumSupportedRelease: '0.9.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/groq.png',
+  logoUrl: '/images/pieces/groq.png',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   auth: groqAuth,
   actions: [

@@ -43,7 +43,7 @@ export const redditAuth = PieceAuth.OAuth2({
 export const reddit = createPiece({
   displayName: 'Reddit',
   description: 'Interact with Reddit - fetch and submit posts.',
-  logoUrl: 'https://cdn.activepieces.com/pieces/reddit.png',
+  logoUrl: '/images/pieces/reddit.png',
   minimumSupportedRelease: '0.36.1',
   categories: [PieceCategory.COMMUNICATION],
   authors: ['bhaviksingla1403'],

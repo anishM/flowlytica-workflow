@@ -19,7 +19,7 @@ export const comfyicu = createPiece({
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   auth: comfyIcuAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/comfyicu.png',
+  logoUrl: '/images/pieces/comfyicu.png',
   authors: ['rimjhimyadav'],
   actions: [getRunOutputAction,getRunStatusAction,listWorkflowsAction,submitWorkflowRunAction],
   triggers: [newWorkflowCreatedTrigger,runCompletedTrigger,runFailedTrigger],

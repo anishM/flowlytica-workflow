@@ -24,7 +24,7 @@ export const webflow = createPiece({
 	displayName: 'Webflow',
 	description: 'Design, build, and launch responsive websites visually',
 	minimumSupportedRelease: '0.5.0',
-	logoUrl: 'https://cdn.activepieces.com/pieces/webflow.png',
+	logoUrl: '/images/pieces/webflow.png',
 	categories: [PieceCategory.MARKETING],
 	authors: [
 		'Ahmad-AbuOsbeh',

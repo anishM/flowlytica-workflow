@@ -39,7 +39,7 @@ export const exa = createPiece({
   description: 'AI-powered search and content extraction from the web.',
   auth: exaAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/exa.png',
+  logoUrl: '/images/pieces/exa.png',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE,PieceCategory.PRODUCTIVITY],
   authors: ['krushnarout','kishanprmr'],
   actions: [

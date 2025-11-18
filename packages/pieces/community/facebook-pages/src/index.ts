@@ -38,7 +38,7 @@ export const facebookPages = createPiece({
   description: 'Manage your Facebook pages to grow your business',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/facebook.png',
+  logoUrl: '/images/pieces/facebook-pages.png',
   categories: [PieceCategory.MARKETING],
   authors: ["kishanprmr","MoShizzle","khaledmashaly","abuaboud"],
   auth: facebookPagesAuth,

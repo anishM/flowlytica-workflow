@@ -10,7 +10,7 @@ export const matomo = createPiece({
 
   auth: matomoAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/matomo.png',
+  logoUrl: '/images/pieces/matomo.png',
   categories: [PieceCategory.BUSINESS_INTELLIGENCE],
   authors: ["joeworkman","kishanprmr","MoShizzle","abuaboud"],
   actions: [

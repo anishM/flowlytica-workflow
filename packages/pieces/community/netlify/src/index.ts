@@ -16,7 +16,7 @@ import { PieceCategory } from "@activepieces/shared";
       auth: netlifyAuth,
       minimumSupportedRelease: '0.36.1',
       description: "Netlify is a platform for building and deploying websites and apps.",
-      logoUrl: "https://cdn.activepieces.com/pieces/netlify.png",
+      logoUrl: "/images/pieces/netlify.png",
       authors: ["sparkybug"],
       categories: [PieceCategory.DEVELOPER_TOOLS],
       actions: [

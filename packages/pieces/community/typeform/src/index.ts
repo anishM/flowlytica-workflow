@@ -19,7 +19,7 @@ export const typeform = createPiece({
   description: 'Create beautiful online forms and surveys',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/typeform.png',
+  logoUrl: '/images/pieces/typeform.png',
   categories: [PieceCategory.FORMS_AND_SURVEYS],
   actions: [
     createCustomApiCallAction({

@@ -18,7 +18,7 @@ export const chatbase = createPiece({
 	displayName: 'Chatbase',
 	description: 'Build and manage AI chatbots with custom sources.',
 	auth: chatbaseAuth,
-	logoUrl: 'https://cdn.activepieces.com/pieces/chatbase.png',
+	logoUrl: '/images/pieces/chatbase.png',
 	categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
 	authors: ['krushnarout'],
 	actions: [

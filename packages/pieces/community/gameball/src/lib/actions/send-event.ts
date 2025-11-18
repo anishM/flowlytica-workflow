@@ -3,7 +3,7 @@ import { httpClient, HttpMethod } from '@activepieces/pieces-common';
 import { gameballAuth } from '../..';
 
 export const sendEvent = createAction({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.flowlytics.com/docs/developers/piece-reference/authentication,
   name: 'sendEvent',
   auth: gameballAuth,
   displayName: 'Send event',

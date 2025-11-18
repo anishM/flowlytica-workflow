@@ -19,7 +19,7 @@ import { meetingCancelled } from "./lib/triggers/meeting-cancelled";
         required: true
       }),
       minimumSupportedRelease: '0.36.1',
-      logoUrl: 'https://cdn.activepieces.com/pieces/avoma.png',
+      logoUrl: '/images/pieces/avoma.png',
       authors: ["fortunamide", "onyedikachi-david"],
       actions: [createCall, getMeetingRecording, getMeetingTranscription],
       triggers: [newNote, newMeetingScheduled, meetingRescheduled, meetingCancelled]

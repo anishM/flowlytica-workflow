@@ -24,7 +24,7 @@ export const Heartbeat = createPiece({
 
   auth: heartbeatAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/heartbeat.png',
+  logoUrl: '/images/pieces/heartbeat.png',
   categories: [PieceCategory.COMMUNICATION],
   authors: ["kanarelo","kishanprmr","abuaboud"],
   actions: [

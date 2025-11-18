@@ -59,7 +59,7 @@ const TutorialsDialog = ({
     gettingStarted: {
       icon: <Star className="size-4"></Star>,
       name: t('Intro'),
-      description: t('Get started with Activepieces'),
+      description: t('Get started with Flowlytics - Workflow'),
       link: `https://www.youtube.com/embed/b97bgcOigIs?si=Zlly9_WkP1oOnJ-K`,
     },
     flows: {
@@ -132,7 +132,7 @@ const TutorialsDialog = ({
               <div className="p-6 bg-gradient-to-br from-primary/10 via-primary/5 to-primary/20 dark:from-primary/20 dark:via-primary/10 dark:to-primary/30 p-6 border-b border-gray-100 dark:border-gray-800">
                 <div className="text-2xl font-bold mb-2 flex items-center gap-2 relative">
                   <GraduationCap className="size-6"></GraduationCap>{' '}
-                  {t('Activepieces Crash Course')}
+                  {t('Flowlytics - Workflow Crash Course')}
                 </div>
                 <div className="text-sm text-muted-foreground">
                   {tabs[selectedTab].description}

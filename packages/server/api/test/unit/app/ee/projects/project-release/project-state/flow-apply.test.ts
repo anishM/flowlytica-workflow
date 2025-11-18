@@ -71,7 +71,7 @@ describe('ProjectStateService.apply - Flow Operations', () => {
             expect(mockRepublishFlow).toHaveBeenCalledWith({
                 flow: createdFlow,
                 projectId,
-                // Note: status should be undefined (default to enabled)
+                status: FlowStatus.ENABLED,
             })
         })
 

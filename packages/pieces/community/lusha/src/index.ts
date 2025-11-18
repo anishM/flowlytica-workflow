@@ -13,7 +13,7 @@ export const lusha = createPiece({
   displayName: "Lusha",
   auth: lushaAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/lusha.png",
+  logoUrl: "/images/pieces/lusha.png",
   authors: ["Kevinyu-alan"],
   actions: [
     searchCompanies,

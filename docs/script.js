@@ -49,7 +49,7 @@ inkeepScript.addEventListener("load", function () {
         },
         {
           name: "Community",
-          url: "https://community.activepieces.com/",
+          url: "https://community.flowlytics.com/",
           icon: {
             builtIn: "IoPeopleOutline",
           },

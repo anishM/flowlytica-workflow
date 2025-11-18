@@ -15,7 +15,7 @@ export const apitemplateIo = createPiece({
   displayName: 'APITemplate.io',
   auth: ApitemplateAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/apitemplate-io.png',
+  logoUrl: '/images/pieces/apitemplate-io.png',
   categories: [PieceCategory.CONTENT_AND_FILES, PieceCategory.PRODUCTIVITY],
   authors: ['Sanket6652'],
   actions: [

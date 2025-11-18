@@ -11,7 +11,7 @@ export const activepiecesAi = createPiece({
     PieceCategory.ARTIFICIAL_INTELLIGENCE,
     PieceCategory.UNIVERSAL_AI,
   ],
-  logoUrl: 'https://cdn.activepieces.com/pieces/text-ai.svg',
+  logoUrl: '/images/pieces/text-ai.svg',
   authors: ['anasbarg', 'amrdb'],
   actions: [askAI, summarizeText],
   triggers: [],

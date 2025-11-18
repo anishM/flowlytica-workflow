@@ -113,7 +113,6 @@ export const ProjectRoleUsersTable = () => {
       lockDescription={t(
         'Define custom roles and permissions to control what your team members can access and modify',
       )}
-      lockVideoUrl="https://cdn.activepieces.com/videos/showcase/roles.mp4"
     >
       <div className="flex-colw-full">
         <DashboardPageHeader

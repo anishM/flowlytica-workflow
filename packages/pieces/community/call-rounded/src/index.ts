@@ -11,7 +11,7 @@ export const callRounded = createPiece({
   displayName: "Call-rounded",
   auth: callRoundedAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/call-rounded.png",
+  logoUrl: "/images/pieces/call-rounded.png",
   authors: ["perrine-pullicino-alan"],
   actions: [
     createCustomApiCallAction({

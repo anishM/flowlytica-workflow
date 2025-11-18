@@ -41,7 +41,7 @@ export const copper = createPiece({
   displayName: 'Copper',
   auth: CopperAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/copper.png',
+  logoUrl: '/images/pieces/copper.png',
   authors: ['gs03-dev'],
   categories: [PieceCategory.SALES_AND_CRM, PieceCategory.PRODUCTIVITY],
   actions: [

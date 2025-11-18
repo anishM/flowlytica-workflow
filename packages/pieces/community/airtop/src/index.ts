@@ -18,7 +18,7 @@ export const airtop = createPiece({
 	displayName: 'Airtop',
 	auth: airtopAuth,
 	minimumSupportedRelease: '0.36.1',
-	logoUrl: 'https://cdn.activepieces.com/pieces/airtop.png',
+	logoUrl: '/images/pieces/airtop.png',
 	authors: ['aryel780'],
 	actions: [
 		createSessionAction,

@@ -19,8 +19,7 @@ export const medullar = createPiece({
     'AI-powered discovery & insight platform that acts as your extended digital mind',
   auth: medullarAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl:  
-    'https://cdn.activepieces.com/pieces/medullar.png',
+  logoUrl: '/images/pieces/medullar.png',
   authors: ['mllopart'],
   actions: [createSpace, listSpaces, addSpaceRecord, askSpace, deleteSpace, renameSpace],
   triggers: [],

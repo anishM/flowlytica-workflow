@@ -33,7 +33,7 @@ export const nifty = createPiece({
 
   auth: niftyAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/nifty.png',
+  logoUrl: '/images/pieces/nifty.png',
   categories: [PieceCategory.PRODUCTIVITY],
   authors: ["kishanprmr","MoShizzle","abuaboud"],
   actions: [

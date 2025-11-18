@@ -60,7 +60,7 @@ export const zendesk = createPiece({
   description: 'Customer service software and support ticket system',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/zendesk.png',
+  logoUrl: '/images/pieces/zendesk.png',
   authors: ["kishanprmr","MoShizzle","khaledmashaly","abuaboud","aryel780","onyedikachi-david"],
   categories: [PieceCategory.CUSTOMER_SUPPORT],
   auth: zendeskAuth,

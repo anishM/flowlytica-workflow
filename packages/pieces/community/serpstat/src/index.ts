@@ -12,7 +12,7 @@ export const serpstat = createPiece({
   auth: serpstatAuth,
   categories:[PieceCategory.PRODUCTIVITY],
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/serpstat.png",
+  logoUrl: "/images/pieces/serpstat.png",
   authors: ['geekyme'],
   actions: [
     getKeywords,

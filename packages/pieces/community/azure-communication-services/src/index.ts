@@ -12,8 +12,7 @@ export const azureCommunicationServices = createPiece({
   description: 'Communication services from Microsoft Azure',
   auth: azureCommunicationServiceAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl:
-    'https://cdn.activepieces.com/pieces/azure-communication-services.png',
+  logoUrl: '/images/pieces/azure-communication-services.png',
   categories: [PieceCategory.COMMUNICATION, PieceCategory.MARKETING],
   authors: ['matthieu-lombard'],
   actions: [sendEmail],

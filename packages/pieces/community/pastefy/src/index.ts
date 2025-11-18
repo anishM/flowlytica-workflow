@@ -31,7 +31,7 @@ export const pastefy = createPiece({
   displayName: 'Pastefy',
   description: 'Sharing code snippets platform',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/pastefy.png',
+  logoUrl: '/images/pieces/pastefy.png',
   categories: [],
   authors: ["JanHolger","kishanprmr","MoShizzle","khaledmashaly","abuaboud"],
   auth: pastefyAuth,

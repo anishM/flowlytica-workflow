@@ -19,7 +19,7 @@ export const posthog = createPiece({
   description: 'Open-source product analytics',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/posthog.png',
+  logoUrl: '/images/pieces/posthog.png',
   categories: [PieceCategory.BUSINESS_INTELLIGENCE],
   auth: posthogAuth,
   actions: [

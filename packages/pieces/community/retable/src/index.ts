@@ -37,7 +37,7 @@ export const retable = createPiece({
 
   auth: retableAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/retable.png',
+  logoUrl: '/images/pieces/retable.png',
   categories: [PieceCategory.PRODUCTIVITY],
   authors: ["kishanprmr","MoShizzle","abuaboud"],
   actions: [

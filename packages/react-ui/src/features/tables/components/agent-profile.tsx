@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
+import agentsGroup from '@/assets/img/custom/agents-group.png';
 
 interface AgentProfileProps {
   imageUrl?: string;
@@ -11,7 +12,7 @@ interface AgentProfileProps {
 }
 
 const AgentProfile = ({
-  imageUrl = 'https://cdn.activepieces.com/quicknew/agents/robots/robot_186.png',
+  imageUrl = agentsGroup,
   isEnabled = false,
   onClick,
   className,

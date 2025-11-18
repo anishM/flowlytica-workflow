@@ -10,7 +10,7 @@ import { createCustomApiCallAction } from '@activepieces/pieces-common';
 
 const markdown = `
 Activepieces Platform API is available under the Platform Edition.
-(https://www.activepieces.com/docs/admin-console/overview)
+(https://www.flowlytics.com/docs/admin-console/overview)
 
 **Note**: The API Key is available in the Platform Dashboard.
 
@@ -23,7 +23,7 @@ export const activePieceAuth = PieceAuth.CustomAuth({
     baseApiUrl: Property.ShortText({
       displayName: 'Base URL',
       required: true,
-      defaultValue: 'https://cloud.activepieces.com/api/v1',
+      defaultValue: 'https://cloud.flowlytics.com/api/v1',
     }),
     apiKey: PieceAuth.SecretText({
       displayName: 'API Key',
@@ -37,7 +37,7 @@ export const activepieces = createPiece({
   description: 'Open source no-code business automation',
   auth: activePieceAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/activepieces.png',
+  logoUrl: '/images/pieces/activepieces.png',
   authors: ['doskyft', 'abuaboud', 'AdamSelene'],
   actions: [
     createProject,

@@ -170,7 +170,18 @@ export const filePiecesUtils = (packages: string[], log: FastifyBaseLogger) => {
         }
         catch (ex) {
             pieceCache[folderPath] = null
-            exceptionHandler.handle(ex, log)
+            const error = ex as Error & { code?: string }
+            // MODULE_NOT_FOUND errors are expected when pieces have dependencies that aren't installed
+            // This is normal during sync - we can't load pieces without their dependencies
+            // Log as warning instead of error to reduce noise
+            if (error.code === 'MODULE_NOT_FOUND' || error.message?.includes('Cannot find module')) {
+                log.debug({ 
+                    piecePath: folderPath, 
+                    error: error.message 
+                }, 'Piece skipped due to missing dependencies (expected during sync)')
+            } else {
+                exceptionHandler.handle(ex, log)
+            }
         }
         finally {
             if (lock) {

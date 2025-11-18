@@ -57,7 +57,7 @@ export const linka = createPiece({
     'Linka white-label B2B marketplace platform powers communities and digital storefronts',
   auth: linkaAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/linka.png',
+  logoUrl: '/images/pieces/linka.png',
   authors: ['Trayshmhirk', 'OmarSayed'],
   categories: [PieceCategory.SALES_AND_CRM],
   actions: [

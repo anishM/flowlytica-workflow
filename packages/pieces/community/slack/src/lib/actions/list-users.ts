@@ -4,7 +4,7 @@ import { slackAuth } from '../..';
 import { Member } from '@slack/web-api/dist/types/response/UsersListResponse';
 
 export const listUsers = createAction({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.flowlytics.com/docs/developers/piece-reference/authentication,
   name: 'listUsers',
   displayName: 'List users',
   description: 'List all users of the workspace',

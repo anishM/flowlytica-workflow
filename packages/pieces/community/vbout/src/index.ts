@@ -45,7 +45,7 @@ export const vbout = createPiece({
   description: 'Marketing automation platform for agencies',
   auth: vboutAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/vbout.png',
+  logoUrl: '/images/pieces/vbout.png',
   authors: ["kishanprmr","abuaboud"],
   categories: [PieceCategory.MARKETING],
   actions: [

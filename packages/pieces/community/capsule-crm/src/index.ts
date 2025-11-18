@@ -20,7 +20,7 @@
       displayName: 'Capsule CRM',
       auth: capsuleCrmAuth,
       minimumSupportedRelease: '0.36.1',
-      logoUrl: 'https://cdn.activepieces.com/pieces/capsule-crm.png',
+      logoUrl: '/images/pieces/capsule-crm.png',
       authors: ['Prabhukiran161', 'onyedikachi-david'],
       actions: [
         createContactAction,

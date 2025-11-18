@@ -33,7 +33,7 @@ const polling: Polling< PiecePropValueSchema<typeof auth>, Record<string, never>
 }
 
 export const ${camelCase} = createTrigger({
-// auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+// auth: check https://www.flowlytics.com/docs/developers/piece-reference/authentication,
 name: '${camelCase}',
 displayName: '${displayName}',
 description: '${description}',
@@ -62,7 +62,7 @@ async run(context) {
         triggerTemplate = `
 import { createTrigger, TriggerStrategy } from '@activepieces/pieces-framework';
 export const ${camelCase} = createTrigger({
-    // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+    // auth: check https://www.flowlytics.com/docs/developers/piece-reference/authentication,
     name: '${camelCase}',
     displayName: '${displayName}',
     description: '${description}',

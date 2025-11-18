@@ -14,7 +14,7 @@ export const contentful = createPiece({
 
   auth: ContentfulAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/contentful.png',
+  logoUrl: '/images/pieces/contentful.png',
   categories: [PieceCategory.MARKETING],
   authors: ["cyrilselasi","kishanprmr","MoShizzle","abuaboud"],
   actions: [

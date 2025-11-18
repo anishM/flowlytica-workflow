@@ -2,6 +2,7 @@ import { useHeaderRowSelection, useRowSelection } from 'react-data-grid';
 
 import { Checkbox } from '@/components/ui/checkbox';
 import { cn } from '@/lib/utils';
+import agentsGroup from '@/assets/img/custom/agents-group.png';
 
 import { Row } from '../lib/types';
 
@@ -74,7 +75,7 @@ export function SelectCell({
       >
         {locked ? (
           <img
-            src="https://cdn.activepieces.com/quicknew/agents/robots/robot_186.png"
+            src={agentsGroup}
             alt="Locked"
             className="w-6 h-6 rounded-full object-cover"
             style={{ display: 'inline-block' }}

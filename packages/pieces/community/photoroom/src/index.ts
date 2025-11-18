@@ -15,7 +15,7 @@ export const photoroom = createPiece({
   displayName: 'Photoroom',
   auth: photoroomAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/photoroom.png',
+  logoUrl: '/images/pieces/photoroom.png',
   authors: ['AdamSelene', 'Charles-Go'],
   actions: [removeBackground],
   triggers: [],

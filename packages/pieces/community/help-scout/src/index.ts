@@ -23,7 +23,7 @@ export const helpScout = createPiece({
   displayName: 'Help Scout',
   auth: helpScoutAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/help-scout.png',
+  logoUrl: '/images/pieces/help-scout.png',
   categories:[PieceCategory.CUSTOMER_SUPPORT],
   authors: ['sparkybug'],
   actions: [

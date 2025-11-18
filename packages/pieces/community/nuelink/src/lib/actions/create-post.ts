@@ -3,7 +3,7 @@ import { httpClient, HttpMethod } from '@activepieces/pieces-common';
 import { nuelinkAuth } from '../..';
 
 export const createPost = createAction({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.flowlytics.com/docs/developers/piece-reference/authentication,
   name: 'createPost',
   auth: nuelinkAuth,
   displayName: 'Create Post',

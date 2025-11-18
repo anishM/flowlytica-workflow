@@ -35,7 +35,7 @@ export const HelpAndFeedback = () => {
       <DropdownMenuContent align="end" side="right" className="w-[220px]">
         <DropdownMenuItem asChild>
           <Link
-            to="https://activepieces.com/docs"
+            to="https://www.flowlytics.com/docs"
             target="_blank"
             rel="noopener noreferrer"
             className="flex justify-between w-full"
@@ -49,7 +49,7 @@ export const HelpAndFeedback = () => {
 
         <DropdownMenuItem asChild>
           <Link
-            to="https://github.com/activepieces/activepieces/releases"
+            to="https://github.com/flowlytics/workflow/releases"
             target="_blank"
             rel="noopener noreferrer"
             className="flex justify-between w-full"

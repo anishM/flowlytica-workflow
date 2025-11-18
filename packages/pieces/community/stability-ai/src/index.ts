@@ -24,7 +24,7 @@ export const stabilityAi = createPiece({
     'Generative AI video model based on the image model Stable Diffusion.',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/stability-ai.png',
+  logoUrl: '/images/pieces/stability-ai.png',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ["Willianwg","camilou","kishanprmr","MoShizzle","AbdulTheActivePiecer","khaledmashaly","abuaboud"],
   auth: stabilityAiAuth,

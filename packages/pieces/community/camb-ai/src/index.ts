@@ -42,7 +42,7 @@ export const cambAi = createPiece({
     displayName: "Camb.AI",
     auth: cambaiAuth,
     minimumSupportedRelease: '0.36.1',
-    logoUrl: "https://cdn.activepieces.com/pieces/camb-ai.png",
+    logoUrl: "/images/pieces/camb-ai.png",
     authors: ['david-oluwaseun420','sanket-a11y'], 
     categories:[PieceCategory.ARTIFICIAL_INTELLIGENCE],
     actions: [

@@ -32,7 +32,7 @@ export const captainData = createPiece({
   displayName: 'Captain-data',
   auth: captainDataAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/captain-data.png',
+  logoUrl: '/images/pieces/captain-data.png',
   authors: ['AdamSelene'],
   actions: [
     launchWorkflow,

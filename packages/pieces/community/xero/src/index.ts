@@ -73,7 +73,7 @@ export const xero = createPiece({
   description: 'Beautiful accounting software',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/xero.png',
+  logoUrl: '/images/pieces/xero.png',
   authors: ['kanarelo', 'kishanprmr', 'MoShizzle', 'khaledmashaly', 'abuaboud', 'thejaachi'],
   categories: [PieceCategory.ACCOUNTING],
   auth: xeroAuth,

@@ -48,7 +48,7 @@ export const dumplingAi = createPiece({
 	description:'Transform unstructured website content into clean, AI-ready data',
 	auth: dumplingAuth,
 	minimumSupportedRelease: '0.36.1',
-	logoUrl: 'https://cdn.activepieces.com/pieces/dumpling-ai.png',
+	logoUrl: '/images/pieces/dumpling-ai.png',
 	authors: ['neo773'],
 	categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE, PieceCategory.PRODUCTIVITY],
 	actions: [

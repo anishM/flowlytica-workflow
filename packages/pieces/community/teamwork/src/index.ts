@@ -33,7 +33,7 @@ import { PieceCategory } from "@activepieces/shared";
       description: "Teamwork is a work and project management tool that helps teams improve collaboration, visibility, and accountability.",
       auth: teamworkAuth,
       minimumSupportedRelease: '0.36.1',
-      logoUrl: "https://cdn.activepieces.com/pieces/teamwork.png",
+      logoUrl: "/images/pieces/teamwork.png",
       authors: ['sparkybug', 'onyedikachi-david'],
       categories: [PieceCategory.PRODUCTIVITY],
       actions: [

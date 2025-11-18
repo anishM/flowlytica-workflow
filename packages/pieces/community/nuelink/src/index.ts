@@ -13,7 +13,7 @@ export const nuelink = createPiece({
   displayName: "Nuelink",
   auth: nuelinkAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/nuelink.png",
+  logoUrl: "/images/pieces/nuelink.png",
   categories:[PieceCategory.CONTENT_AND_FILES,PieceCategory.MARKETING],
   authors: ['AouladLahceneOussama'],
   actions: [createPost],

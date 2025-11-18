@@ -15,7 +15,7 @@ export const retellAi = createPiece({
   displayName: "Retell AI",
   auth: retellAiAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/retell-ai.png",
+  logoUrl: "/images/pieces/retell-ai.png",
   authors: ['aryel780'],
   categories:[PieceCategory.BUSINESS_INTELLIGENCE,PieceCategory.PRODUCTIVITY,PieceCategory.COMMUNICATION],
   actions: [

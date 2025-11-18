@@ -89,7 +89,7 @@ export const mongodb = createPiece({
   auth: mongodbAuth,
   minimumSupportedRelease: '0.36.1',
   categories: [PieceCategory.DEVELOPER_TOOLS],
-  logoUrl: 'https://cdn.activepieces.com/pieces/mongodb.png',
+  logoUrl: '/images/pieces/mongodb.png',
   authors: ['denieler'],
   actions,
   triggers: [],

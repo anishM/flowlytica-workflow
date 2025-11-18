@@ -9,7 +9,7 @@ import { EditProjectDialog } from '@/features/projects/components/edit-project-d
 import { useAuthorization } from '@/hooks/authorization-hooks';
 import { flagsHooks } from '@/hooks/flags-hooks';
 import { projectHooks } from '@/hooks/project-hooks';
-import { ApFlagId, isNil, Permission } from '@activepieces/shared';
+import { ApEdition, ApFlagId, isNil, Permission } from '@activepieces/shared';
 const WARNING_PERCENTAGE = 0.65;
 const DESTRUCTIVE_PERCENTAGE = 0.85;
 
@@ -28,6 +28,7 @@ export const LimitAlert = ({
   const { data: showBilling } = flagsHooks.useFlag<boolean>(
     ApFlagId.SHOW_BILLING,
   );
+  const { data: edition } = flagsHooks.useFlag<ApEdition>(ApFlagId.EDITION);
   const { project } = projectHooks.useCurrentProject();
   const openDialog = useManagePlanDialogStore((state) => state.openDialog);
   const { checkAccess } = useAuthorization();
@@ -60,6 +61,8 @@ export const LimitAlert = ({
   const showContactAdmin =
     !checkAccess(Permission.WRITE_PROJECT) && !showBilling;
   const showAdminNote = checkAccess(Permission.WRITE_PROJECT) && !showBilling;
+  const isCloudEdition = edition === ApEdition.CLOUD;
+  const showUpgradeButton = Boolean(showBilling && isCloudEdition);
   return (
     <Alert
       variant={type}
@@ -102,7 +105,7 @@ export const LimitAlert = ({
           </AlertDescription>
         </div>
         <div className="flex flex-col gap-2 relative">
-          {showBilling && (
+          {showUpgradeButton && (
             <Button
               variant="outline"
               className="!text-primary"

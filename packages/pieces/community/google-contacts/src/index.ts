@@ -22,7 +22,7 @@ export const googleContactsAuth = PieceAuth.OAuth2({
 
 export const googleContacts = createPiece({
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/google-contacts.png',
+  logoUrl: '/images/pieces/google-contacts.png',
   categories: [PieceCategory.SALES_AND_CRM],
   actions: [
     googleContactsAddContactAction,

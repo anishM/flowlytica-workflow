@@ -11,7 +11,7 @@ export const capsuleCrmAuth = PieceAuth.OAuth2({
   1. Go to your Capsule CRM user settings.
   2. Navigate to "My Preferences" > "API Authentication Tokens".
   3. Register a new application to get a Client ID and Client Secret.
-  4. Add https://cloud.activepieces.com/redirect to the authorized redirect URIs.
+  4. Add https://cloud.flowlytics.com/redirect to the authorized redirect URIs.
   5. Use the OAuth2 flow below.`,
   authUrl: 'https://api.capsulecrm.com/oauth/authorise',
   tokenUrl: 'https://api.capsulecrm.com/oauth/token',

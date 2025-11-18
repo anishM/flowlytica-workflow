@@ -12,7 +12,7 @@ import {
 import { workflowProp } from '../common';
 
 export const launchWorkflow = createAction({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.flowlytics.com/docs/developers/piece-reference/authentication,
   name: 'launchWorkflow',
   displayName: 'Launch a workflow',
   description: '',

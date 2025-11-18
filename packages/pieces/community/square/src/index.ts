@@ -28,7 +28,7 @@ export const square = createPiece({
   description: 'Payment solutions for every business',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/square.png',
+  logoUrl: '/images/pieces/square.png',
   categories: [PieceCategory.COMMERCE],
   authors: ["kishanprmr","MoShizzle","khaledmashaly","abuaboud"],
   auth: squareAuth,

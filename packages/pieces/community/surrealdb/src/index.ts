@@ -61,7 +61,7 @@ export const surrealdb = createPiece({
   description: "Multi Model Database",
   minimumSupportedRelease: '0.30.0',
   categories: [PieceCategory.DEVELOPER_TOOLS],
-  logoUrl: 'https://cdn.activepieces.com/pieces/surrealdb.jpg',
+  logoUrl: '/images/pieces/surrealdb.jpg',
   authors: ['maarteNNNN'],
   auth: surrealdbAuth,
   actions: [runQuery],

@@ -107,7 +107,7 @@ export const wedof = createPiece({
   description:
     'Automatisez la gestion de vos dossiers de formations (CPF, EDOF, Kairos, AIF, OPCO et autres)',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/wedof.svg',
+  logoUrl: '/images/pieces/wedof.svg',
   categories: [
     PieceCategory.SALES_AND_CRM,
     PieceCategory.CONTENT_AND_FILES,

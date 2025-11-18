@@ -24,7 +24,7 @@ export const wonderchat = createPiece({
     'Wonderchat is a no-code chatbot platform that lets you deploy AI-powered chatbots for websites quickly.',
   auth: wonderchatAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/wonderchat.png',
+  logoUrl: '/images/pieces/wonderchat.png',
   categories: [
     PieceCategory.ARTIFICIAL_INTELLIGENCE,
   ],

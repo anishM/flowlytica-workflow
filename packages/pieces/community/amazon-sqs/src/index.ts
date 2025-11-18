@@ -170,7 +170,7 @@ export const awsSqs = createPiece({
   displayName: "Amazon SQS",
   auth: amazonSqsAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: "https://cdn.activepieces.com/pieces/aws-sqs.png",
+  logoUrl: "/images/pieces/amazon-sqs.png",
   authors: ["abuaboud"],
   actions: [sendMessage],
   triggers: [],

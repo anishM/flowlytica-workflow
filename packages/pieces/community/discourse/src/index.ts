@@ -41,7 +41,7 @@ export const discourse = createPiece({
   description: 'Modern open source forum software',
   auth: discourseAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/discourse.png',
+  logoUrl: '/images/pieces/discourse.png',
   categories: [PieceCategory.COMMUNICATION],
   authors: ["pfernandez98","kishanprmr","MoShizzle","abuaboud"],
   actions: [

@@ -25,7 +25,7 @@
       displayName: "Harvest",
       auth: harvestAuth,
       minimumSupportedRelease: '0.36.1',
-      logoUrl: "https://cdn.activepieces.com/pieces/harvest.png",
+      logoUrl: "/images/pieces/harvest.png",
       categories:[PieceCategory.PRODUCTIVITY],
       description:'Time Tracking Software with Invoicing',
       authors: ["D-Rowe-FS"],

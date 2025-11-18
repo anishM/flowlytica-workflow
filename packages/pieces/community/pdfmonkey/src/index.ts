@@ -12,7 +12,7 @@ export const pdfmonkey = createPiece({
 	displayName: 'PDFMonkey',
 	auth: pdfmonkeyAuth,
 	minimumSupportedRelease: '0.36.1',
-	logoUrl: 'https://cdn.activepieces.com/pieces/pdfmonkey.png',
+	logoUrl: '/images/pieces/pdfmonkey.png',
 	authors: ['Sanket6652'],
 	categories: [PieceCategory.CONTENT_AND_FILES],
 	actions: [

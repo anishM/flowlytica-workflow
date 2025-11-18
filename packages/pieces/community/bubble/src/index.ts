@@ -50,7 +50,7 @@ export const bubble = createPiece({
 
   auth: PieceAuth.None(),
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/bubble.png',
+  logoUrl: '/images/pieces/bubble.png',
   categories: [PieceCategory.DEVELOPER_TOOLS],
   authors: ["TaskMagicKyle","kishanprmr","abuaboud"],
   actions: [

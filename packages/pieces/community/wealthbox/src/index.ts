@@ -28,7 +28,7 @@ export const wealthboxAuth = PieceAuth.SecretText({
       displayName: "Wealthbox",
       auth: wealthboxAuth,
       minimumSupportedRelease: '0.36.1',
-      logoUrl: "https://cdn.activepieces.com/pieces/wealthbox.png",
+      logoUrl: "/images/pieces/wealthbox.png",
       authors: ["fortunamide", "onyedikachi-david"],
       actions: [
         createContact,

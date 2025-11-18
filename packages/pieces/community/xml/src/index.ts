@@ -7,7 +7,7 @@ export const xml = createPiece({
   description: 'Extensible Markup Language for storing and transporting data',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/xml.png',
+  logoUrl: '/images/pieces/xml.png',
   categories: [PieceCategory.CORE],
   auth: PieceAuth.None(),
   authors: ["Willianwg","kishanprmr","AbdulTheActivePiecer","khaledmashaly","abuaboud"],

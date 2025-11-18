@@ -8,7 +8,7 @@ export const gravityforms = createPiece({
 
   auth: PieceAuth.None(),
   minimumSupportedRelease: '0.27.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/gravityforms.svg',
+  logoUrl: '/images/pieces/gravityforms.svg',
   authors: ["Abdallah-Alwarawreh","kishanprmr","MoShizzle","abuaboud"],
   categories: [PieceCategory.FORMS_AND_SURVEYS],
   actions: [],

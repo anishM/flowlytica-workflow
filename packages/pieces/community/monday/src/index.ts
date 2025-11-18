@@ -30,7 +30,7 @@ export const monday = createPiece({
   description: 'Work operating system for businesses',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/monday.png',
+  logoUrl: '/images/pieces/monday.png',
   categories: [PieceCategory.PRODUCTIVITY],
   authors: [
     'kanarelo',

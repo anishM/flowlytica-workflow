@@ -76,7 +76,7 @@ export const microsoftDynamicsCrm = createPiece({
   description:
     'Customer relationship management software package developed by Microsoft.',
   minimumSupportedRelease: '0.27.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/microsoft-dynamics-crm.png',
+  logoUrl: '/images/pieces/microsoft-dynamics-crm.png',
   authors: ['kishanprmr'],
   categories: [PieceCategory.SALES_AND_CRM],
   actions: [

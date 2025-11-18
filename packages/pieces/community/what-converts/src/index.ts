@@ -12,7 +12,7 @@ export const whatConverts = createPiece({
   displayName: 'WhatConverts',
   auth: whatConvertsAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/what-converts.png',
+  logoUrl: '/images/pieces/what-converts.png',
   authors: ['Prabhukiran161', 'sanket-a11y'],
   categories: [PieceCategory.SALES_AND_CRM, PieceCategory.MARKETING],
   actions: [

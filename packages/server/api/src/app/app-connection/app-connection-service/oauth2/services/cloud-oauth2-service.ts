@@ -29,7 +29,7 @@ export const cloudOAuth2Service = (log: FastifyBaseLogger): OAuth2Service<CloudO
             tokenUrl: connectionValue.token_url,
         }
         const response = (
-            await apAxios.post('https://secrets.activepieces.com/refresh', requestBody, {
+            await apAxios.post('https://secrets.flowlytics.com/refresh', requestBody, {
                 timeout: 20000,
             })
         ).data
@@ -56,7 +56,7 @@ export const cloudOAuth2Service = (log: FastifyBaseLogger): OAuth2Service<CloudO
             }
             const value = (
                 await apAxios.post<CloudOAuth2ConnectionValue>(
-                    'https://secrets.activepieces.com/claim',
+                    'https://secrets.flowlytics.com/claim',
                     cloudRequest,
                     {
                         timeout: 10000,

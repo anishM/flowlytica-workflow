@@ -15,7 +15,7 @@ export const docsbot = createPiece({
   auth: docsbotAuth,
   minimumSupportedRelease: '0.36.1',
   categories:[PieceCategory.ARTIFICIAL_INTELLIGENCE,PieceCategory.PRODUCTIVITY],
-  logoUrl: 'https://cdn.activepieces.com/pieces/docsbot.png',
+  logoUrl: '/images/pieces/docsbot.png',
   authors: ['LuizDMM'],
   actions: [
     askQuestion,

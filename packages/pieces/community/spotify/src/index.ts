@@ -13,7 +13,7 @@ export const spotify = createPiece({
 
   auth: spotifyCommon.authentication,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/spotify.png',
+  logoUrl: '/images/pieces/spotify.png',
   categories: [],
   authors: ["JanHolger","kishanprmr","MoShizzle","abuaboud","jerboa88"],
   actions: [

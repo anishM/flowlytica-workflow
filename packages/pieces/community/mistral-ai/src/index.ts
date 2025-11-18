@@ -12,7 +12,7 @@ export const mistralAi = createPiece({
   description: "Mistral AI provides state-of-the-art open-weight and hosted language models for text generation, embeddings, and reasoning tasks.",
   auth: mistralAuth,
   minimumSupportedRelease: "0.36.1",
-  logoUrl: "https://cdn.activepieces.com/pieces/mistral-ai.png",
+  logoUrl: "/images/pieces/mistral-ai.png",
   authors: ["sparkybug"],
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   actions: [

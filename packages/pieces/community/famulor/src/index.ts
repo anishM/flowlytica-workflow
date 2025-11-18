@@ -51,7 +51,7 @@ export const famulor = createPiece({
   displayName: "Famulor AI - Voice Agent",
   auth:famulorAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/famulor.png",
+  logoUrl: "/images/pieces/famulor.png",
   description: "AI-powered calling and SMS platform. Automate outbound campaigns, manage leads, and get real-time call analytics.",
   authors: ['bekservice', 'onyedikachi-david'],
   categories: [PieceCategory.SALES_AND_CRM],

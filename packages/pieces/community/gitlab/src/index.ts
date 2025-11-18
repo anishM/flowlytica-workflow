@@ -21,7 +21,7 @@ export const gitlab = createPiece({
 
   auth: gitlabAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/gitlab.png',
+  logoUrl: '/images/pieces/gitlab.png',
   categories: [PieceCategory.DEVELOPER_TOOLS],
   authors: ["kishanprmr","MoShizzle","khaledmashaly","abuaboud"],
   actions: [

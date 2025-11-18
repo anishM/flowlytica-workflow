@@ -22,7 +22,7 @@ export const folk = createPiece({
   displayName: 'Folk',
   auth: folkAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/folk.png',
+  logoUrl: '/images/pieces/folk.png',
   authors: ['sparkybug'],
   categories: [PieceCategory.SALES_AND_CRM],
   description:

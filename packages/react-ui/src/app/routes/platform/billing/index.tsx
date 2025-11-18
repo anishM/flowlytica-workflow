@@ -96,7 +96,7 @@ export default function Billing() {
               </Button>
             )
           )}
-          {!isEnterprise && (
+          {!isEnterprise && edition === ApEdition.CLOUD && (
             <Button variant="default" onClick={() => openDialog()}>
               {t('Upgrade Plan')}
             </Button>

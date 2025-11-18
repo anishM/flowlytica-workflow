@@ -20,7 +20,7 @@ export const uscreen = createPiece({
      description: "All-in-one video monetization platform for creating, hosting, and selling online courses, memberships, and video content.",
     auth: uscreenAuth,
     minimumSupportedRelease: '0.36.1',
-    logoUrl: "https://cdn.activepieces.com/pieces/uscreen.png",
+    logoUrl: "/images/pieces/uscreen.png",
     categories: [PieceCategory.COMMERCE, PieceCategory.MARKETING],
     authors: ['srimalleswari205','sanket-a11y'], 
     actions: [

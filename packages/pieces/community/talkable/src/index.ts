@@ -51,8 +51,7 @@ export const talkable = createPiece({
 
   auth: talkableAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl:
-    'https://www.talkable.com/wp-content/uploads/2021/12/talkable-favicon.svg',
+  logoUrl: '/images/pieces/talkable.svg',
   authors: ["Vitalini","kishanprmr","MoShizzle","abuaboud"],
   categories: [PieceCategory.MARKETING],
   actions: [

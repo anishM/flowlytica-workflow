@@ -20,7 +20,7 @@ export const googleBusiness = createPiece({
   displayName: 'Google My Business',
   description: 'Manage your business on Google',
 
-  logoUrl: 'https://cdn.activepieces.com/pieces/google-business.png',
+  logoUrl: '/images/pieces/google-my-business.png',
   authors: ["kishanprmr","MoShizzle","abuaboud"],
   categories: [PieceCategory.MARKETING],
   actions: [

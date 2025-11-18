@@ -17,7 +17,7 @@ export const sendfox = createPiece({
 
   auth: sendfoxAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/sendfox.png',
+  logoUrl: '/images/pieces/sendfox.png',
   categories: [PieceCategory.MARKETING],
   authors: ["Salem-Alaa","kishanprmr","MoShizzle","abuaboud"],
   actions: [

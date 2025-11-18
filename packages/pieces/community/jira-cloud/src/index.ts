@@ -27,7 +27,7 @@ export const jiraCloud = createPiece({
 
 	auth: jiraCloudAuth,
 	minimumSupportedRelease: '0.30.0',
-	logoUrl: 'https://cdn.activepieces.com/pieces/jira.png',
+	logoUrl: '/images/pieces/jira-cloud.png',
 	categories: [PieceCategory.PRODUCTIVITY],
 	authors: ['kishanprmr', 'MoShizzle', 'abuaboud', 'prasanna2000-max'],
 	actions: [

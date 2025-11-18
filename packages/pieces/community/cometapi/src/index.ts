@@ -10,7 +10,7 @@ export const cometapi = createPiece({
     'Access multiple AI models through CometAPI - unified interface for GPT, Claude, Gemini, and more.',
   auth: cometApiAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/cometapi.png',
+  logoUrl: '/images/pieces/cometapi.png',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ['TensorNull'],
   actions: [

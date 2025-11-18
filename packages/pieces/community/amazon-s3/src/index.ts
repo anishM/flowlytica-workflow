@@ -193,7 +193,7 @@ export const amazonS3 = createPiece({
   displayName: 'Amazon S3',
   description: 'Scalable storage in the cloud',
 
-  logoUrl: 'https://cdn.activepieces.com/pieces/amazon-s3.png',
+  logoUrl: '/images/pieces/amazon-s3.png',
   minimumSupportedRelease: '0.30.0',
   authors: ["Willianwg","kishanprmr","MoShizzle","AbdulTheActivePiecer","khaledmashaly","abuaboud", "Kevinyu-alan"],
   categories: [PieceCategory.DEVELOPER_TOOLS],

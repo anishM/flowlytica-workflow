@@ -35,7 +35,7 @@ export const matrix = createPiece({
   description:
     'Open standard for interoperable, decentralized, real-time communication',
 
-  logoUrl: 'https://cdn.activepieces.com/pieces/matrix.png',
+  logoUrl: '/images/pieces/matrix.png',
   categories: [PieceCategory.COMMUNICATION],
   minimumSupportedRelease: '0.30.0',
   authors: ["MyWay","kishanprmr","MoShizzle","khaledmashaly","abuaboud"],

@@ -25,7 +25,7 @@ export const emailoctopus = createPiece({
     description: 'Email marketing platform for list management, campaign sending, tagging & unsubscribes. Automate contact management and campaign engagement tracking.',
     auth: emailOctopusAuth,
     minimumSupportedRelease: '0.36.1',
-    logoUrl: "https://cdn.activepieces.com/pieces/emailoctopus.png",
+    logoUrl: "/images/pieces/emailoctopus.png",
     categories: [PieceCategory.MARKETING],
     authors: ['Pranith124'],
     actions: [

@@ -61,7 +61,7 @@ export const datadog = createPiece({
   description: "Cloud monitoring and analytics platform",
   auth: datadogAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/datadog.png",
+  logoUrl: "/images/pieces/datadog.png",
   categories:[PieceCategory.DEVELOPER_TOOLS],
   authors: ["chaimaa-kadaoui"],
   actions: [

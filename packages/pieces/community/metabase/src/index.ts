@@ -68,7 +68,7 @@ export const metabase = createPiece({
 
   auth: metabaseAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/metabase.png',
+  logoUrl: '/images/pieces/metabase.png',
   authors: ['AdamSelene', 'abuaboud', 'valentin-mourtialon', 'Kevinyu-alan'],
   actions: [
     getQuestion,

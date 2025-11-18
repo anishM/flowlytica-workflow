@@ -7,7 +7,7 @@ const failedHttpAction = buildPieceAction({
     pieceName: '@activepieces/piece-http',
     actionName: 'send_request',
     input: {
-        'url': 'https://cloud.activepieces.com/api/v1/asd',
+        'url': 'https://cloud.flowlytics.com/api/v1/asd',
         'method': 'GET',
         'headers': {},
         'body_type': 'none', 
@@ -21,7 +21,7 @@ const successHttpAction =  buildPieceAction({
     pieceName: '@activepieces/piece-http',
     actionName: 'send_request',
     input: {
-        'url': 'https://cloud.activepieces.com/api/v1/pieces',
+        'url': 'https://cloud.flowlytics.com/api/v1/pieces',
         'method': 'GET',
         'headers': {},
         'body_type': 'none', 

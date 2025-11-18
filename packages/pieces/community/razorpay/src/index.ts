@@ -30,7 +30,7 @@
       displayName: "Razorpay",
       auth: razorpayAuth,
       minimumSupportedRelease: '0.30.0',
-      logoUrl: "https://cdn.activepieces.com/pieces/razorpay.png",
+      logoUrl: "/images/pieces/razorpay.png",
       authors: ['drona2938'],
       actions: [
         createCustomApiCallAction({

@@ -2,7 +2,7 @@ import { createAction, Property } from '@activepieces/pieces-framework';
 import { encodings } from '../common/encodings';
 
 export const createFile = createAction({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.flowlytics.com/docs/developers/piece-reference/authentication,
   name: 'createFile',
   displayName: 'Create file',
   description: 'Create file from content',

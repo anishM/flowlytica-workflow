@@ -9,7 +9,7 @@ export const magicslides = createPiece({
   auth: MagicSlidesAuth,
   description: 'Create PowerPoint presentations from topics, summaries, or YouTube videos using AI.',
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/magicslides.png',
+  logoUrl: '/images/pieces/magicslides.png',
   authors: ['Niket2035'],
   actions: [
     createPptFromTopic,

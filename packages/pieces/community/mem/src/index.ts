@@ -15,7 +15,7 @@ export const mem = createPiece({
   displayName: 'Mem',
   description: 'Capture and organize your thoughts using Mem.ai',
   auth: memAuth,
-  logoUrl: 'https://cdn.activepieces.com/pieces/mem.png',
+  logoUrl: '/images/pieces/mem.png',
   authors: ['krushnarout', 'kishanprmr'],
   categories: [PieceCategory.PRODUCTIVITY],
   actions: [

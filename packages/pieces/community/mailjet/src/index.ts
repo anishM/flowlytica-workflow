@@ -20,7 +20,7 @@ export const mailjet = createPiece({
   description: 'Email delivery service for sending transactional and marketing emails',
   auth: mailjetAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/mailjet.svg',
+  logoUrl: '/images/pieces/mailjet.svg',
   categories: [PieceCategory.COMMUNICATION],
   authors: ['christian-schab'],
   actions: [sendEmail],

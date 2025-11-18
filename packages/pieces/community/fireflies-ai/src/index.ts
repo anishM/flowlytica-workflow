@@ -24,7 +24,7 @@ export const firefliesAiAuth = PieceAuth.SecretText({
 export const firefliesAi = createPiece({
 	displayName: 'Fireflies.ai',
 	description: 'Meeting assistant that automatically records, transcribes, and analyzes conversations',
-	logoUrl: 'https://cdn.activepieces.com/pieces/fireflies-ai.png',
+	logoUrl: '/images/pieces/fireflies-ai.png',
 	authors: ['AnkitSharmaOnGithub'],
 	auth: firefliesAiAuth,
 	actions: [

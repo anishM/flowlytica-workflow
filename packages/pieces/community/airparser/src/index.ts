@@ -34,7 +34,7 @@ export const airparser = createPiece({
 	displayName: 'Airparser',
 	description: 'Extract structured data from emails, PDFs, or documents with Airparser.',
 	auth: airparserAuth,
-	logoUrl: 'https://cdn.activepieces.com/pieces/airparser.png',
+	logoUrl: '/images/pieces/airparser.png',
 	authors: ['krushnarout','kishanprmr'],
 	categories: [PieceCategory.PRODUCTIVITY],
 	actions: [extractDataFromDocumentAction, uploadDocumentAction],

@@ -29,7 +29,7 @@ export const workable = createPiece({
   displayName: "Workable",
   auth: workableAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/workable.png",
+  logoUrl: "/images/pieces/workable.png",
   categories:[PieceCategory.HUMAN_RESOURCES],
   authors: ['Cloudieunnie'],
   actions: [

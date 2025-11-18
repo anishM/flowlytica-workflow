@@ -4,6 +4,7 @@ import { Pencil, Trash } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { SupportedAIProvider } from '@activepieces/common-ai';
+import aiProviderIcon from '@/assets/img/custom/ai-provider.svg';
 
 import { UpsertAIProviderDialog } from './upsert-provider-dialog';
 
@@ -31,11 +32,7 @@ const AIProviderCard = ({
       <div className="flex w-full gap-2 justify-center items-center">
         <div className="flex flex-col gap-2 text-center mr-2">
           <img
-            src={
-              showAzureOpenAI
-                ? 'https://cdn.activepieces.com/pieces/azure-openai.png'
-                : providerMetadata.logoUrl
-            }
+            src={showAzureOpenAI ? aiProviderIcon : providerMetadata.logoUrl}
             alt="icon"
             width={32}
             height={32}

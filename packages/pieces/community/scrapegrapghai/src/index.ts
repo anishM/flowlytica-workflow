@@ -47,7 +47,7 @@ export const scrapegraphai = createPiece({
   displayName: 'ScrapeGraphAI',
   description: 'AI-powered web scraping and content extraction.',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/scrapegraphai.jpg',
+  logoUrl: '/images/pieces/scrapegrapghai.jpg',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ["OsamaHaikal"],
   auth: scrapegraphaiAuth,

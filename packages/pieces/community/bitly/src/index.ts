@@ -14,7 +14,7 @@ export const bitly = createPiece({
   description: 'URL shortening and link management platform with analytics.',
   auth: bitlyAuth,
   minimumSupportedRelease: '0.20.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/bitly.png',
+  logoUrl: '/images/pieces/bitly.png',
   authors: ['aryel780'],
   categories: [PieceCategory.MARKETING],
   actions: [

@@ -62,7 +62,7 @@
       displayName: "Podio",
       auth: podioAuth,
       minimumSupportedRelease: '0.36.1',
-      logoUrl: "https://cdn.activepieces.com/pieces/podio.png",
+      logoUrl: "/images/pieces/podio.png",
       authors: ["sparkybug", "onyedikachi-david"],
       actions: [
         createItemAction,

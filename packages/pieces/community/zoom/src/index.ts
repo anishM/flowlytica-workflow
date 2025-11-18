@@ -27,7 +27,7 @@ export const zoom = createPiece({
   description: 'Video conferencing, web conferencing, webinars, screen sharing',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/zoom.png',
+  logoUrl: '/images/pieces/zoom.png',
   categories: [PieceCategory.COMMUNICATION],
   actions: [
     zoomCreateMeeting,

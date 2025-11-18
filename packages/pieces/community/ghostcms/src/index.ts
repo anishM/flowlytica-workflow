@@ -51,7 +51,7 @@ export const ghostcms = createPiece({
 
   auth: ghostAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/ghostcms.png',
+  logoUrl: '/images/pieces/ghostcms.png',
   categories: [PieceCategory.MARKETING],
   authors: ["kishanprmr","MoShizzle","abuaboud"],
   actions: [

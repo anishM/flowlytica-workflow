@@ -105,7 +105,7 @@ export const vtiger = createPiece({
   description: 'CRM software for sales, marketing, and support teams',
   auth: vtigerAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/vtiger.png',
+  logoUrl: '/images/pieces/vtiger.png',
   categories: [PieceCategory.SALES_AND_CRM],
   authors: ["kanarelo","kishanprmr","abuaboud", "privatestefans"],
   actions: [

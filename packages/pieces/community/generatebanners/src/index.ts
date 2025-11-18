@@ -27,7 +27,7 @@ export const generatebanners = createPiece({
   description: 'Image generation API for banners and social media posts',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/generatebanners.png',
+  logoUrl: '/images/pieces/generatebanners.png',
   categories: [PieceCategory.CONTENT_AND_FILES],
   authors: ["tpatel","kishanprmr","khaledmashaly","abuaboud"],
   auth: generatebannersAuth,

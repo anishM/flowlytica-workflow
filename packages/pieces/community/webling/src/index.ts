@@ -52,7 +52,7 @@ export const webling = createPiece({
   displayName: 'Webling',
   auth: weblingAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/webling.png',
+  logoUrl: '/images/pieces/webling.png',
   categories: [PieceCategory.PRODUCTIVITY],
   authors: ['felifluid'],
   actions: [eventsById],

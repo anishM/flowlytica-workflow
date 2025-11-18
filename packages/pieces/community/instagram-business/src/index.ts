@@ -8,7 +8,7 @@ export const instagramBusiness = createPiece({
   displayName: 'Instagram for Business',
   description: 'Grow your business on Instagram',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/instagram.png',
+  logoUrl: '/images/pieces/instagram-business.png',
   categories: [PieceCategory.BUSINESS_INTELLIGENCE],
   authors: ["kishanprmr","MoShizzle","abuaboud"],
   auth: instagramCommon.authentication,

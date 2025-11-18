@@ -5,7 +5,7 @@ import { fliqrConfig } from '../common/models';
 
 
 export const getFliqrAccountDetails = createAction({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.flowlytics.com/docs/developers/piece-reference/authentication,
   name: 'get_fliqr_account_details',
   auth: fliqrAuth,
   displayName: 'Get Business Account details',

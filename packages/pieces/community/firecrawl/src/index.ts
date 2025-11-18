@@ -53,7 +53,7 @@ export const firecrawl = createPiece({
   displayName: 'Firecrawl',
   description: 'Extract structured data from websites using AI with natural language prompts',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/firecrawl.png',
+  logoUrl: '/images/pieces/firecrawl.png',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ["geekyme-fsmk", "geekyme", "arinmakk"],
   auth: firecrawlAuth,

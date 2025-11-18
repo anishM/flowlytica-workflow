@@ -42,7 +42,7 @@ export const manychat = createPiece({
 	categories: [PieceCategory.MARKETING],
 	auth: manychatAuth,
 	minimumSupportedRelease: '0.36.1',
-	logoUrl: 'https://cdn.activepieces.com/pieces/manychat.png',
+	logoUrl: '/images/pieces/manychat.png',
 	authors: ['neo773', 'kishanprmr'],
 	actions: [
 		addTagToUserAction,

@@ -21,6 +21,11 @@
         "sourceMap": true
       },
       "configurations": {
+        "development": {
+          "optimization": false,
+          "sourceMap": true,
+          "extractLicenses": false
+        },
         "production": {
           "optimization": true,
           "extractLicenses": true,
@@ -34,6 +39,14 @@
       "options": {
         "buildTarget": "engine:build",
         "inspect": false
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "engine:build:development"
+        },
+        "production": {
+          "buildTarget": "engine:build:production"
+        }
       }
     },
     "publish": {

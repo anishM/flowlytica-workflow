@@ -54,7 +54,7 @@ export const microsoftOneDrive = createPiece({
 
   auth: oneDriveAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/oneDrive.png',
+  logoUrl: '/images/pieces/microsoft-onedrive.png',
   categories: [PieceCategory.CONTENT_AND_FILES],
   authors: ["BastienMe","kishanprmr","MoShizzle","abuaboud","ikus060"],
   actions: [

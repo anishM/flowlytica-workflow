@@ -44,7 +44,7 @@ export const dimo = createPiece({
 		'DIMO is an open protocol using blockchain to establish universal digital vehicle identity, permissions, data transmission, vehicle control, and payments. Developers use DIMO to build apps based on connected vehicles around the world while the vehicle owners benefit from monetizing their vehicle data.',
 	auth: dimoAuth,
 	minimumSupportedRelease: '0.36.1',
-	logoUrl: 'https://cdn.activepieces.com/pieces/dimo.png',
+	logoUrl: '/images/pieces/dimo.png',
 	authors: ['yusuf-cirak', 'kishanprmr'],
 	actions: [
 		...attestationApiActions,

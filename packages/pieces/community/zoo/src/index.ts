@@ -23,7 +23,7 @@ export const zooAuth = PieceAuth.SecretText({
 export const textToCad = createPiece({
   displayName: 'Zoo',
   description: 'Generate and iterate on 3D models from text descriptions using ML endpoints.',
-  logoUrl: 'https://cdn.activepieces.com/pieces/zoo.jpg',
+  logoUrl: '/images/pieces/zoo.jpg',
   auth: zooAuth,
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   minimumSupportedRelease: '0.20.0',

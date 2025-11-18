@@ -45,7 +45,7 @@ import { PieceCategory } from "@activepieces/shared";
       auth: deepseekAuth,
       categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
       minimumSupportedRelease: '0.36.1',
-      logoUrl: "https://cdn.activepieces.com/pieces/deepseek.png",
+      logoUrl: "/images/pieces/deepseek.png",
       authors: ["PFernandez98"],
       actions: [askDeepseek],
       triggers: [],

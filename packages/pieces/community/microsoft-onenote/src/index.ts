@@ -51,7 +51,7 @@ export const microsoftOnenote = createPiece({
 	categories: [PieceCategory.PRODUCTIVITY],
 	auth: oneNoteAuth,
 	minimumSupportedRelease: '0.36.1',
-	logoUrl: "https://cdn.activepieces.com/pieces/microsoft-onenote.png",
+	logoUrl: "/images/pieces/microsoft-onenote.png",
 	authors: ['fortunamide', 'onyedikachi-david'],
 	actions: [
 		createNotebook,

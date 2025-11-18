@@ -25,7 +25,7 @@ This piece requires a Placid API token. You can obtain your API token by:
 ## Logo Requirements
 
 This piece requires a logo to be uploaded to the Activepieces CDN at:
-`https://cdn.activepieces.com/pieces/placid.png`
+`https://cdn.flowlytics.com/pieces/placid.png`
 
 ### Logo Files Included:
 - `placid-logo.png` - Downloaded from Placid's official site

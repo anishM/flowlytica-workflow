@@ -12,7 +12,7 @@ export const gameball = createPiece({
   displayName: "Gameball",
   auth: gameballAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: "https://cdn.activepieces.com/pieces/gameball.png",
+  logoUrl: "/images/pieces/gameball.png",
   authors: ["Raamyy"],
   actions: [sendEvent],
   triggers: [],

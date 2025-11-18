@@ -15,7 +15,7 @@ export const softr = createPiece({
   displayName: 'Softr',
   auth: SoftrAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/softr.png',
+  logoUrl: '/images/pieces/softr.png',
   categories:[PieceCategory.CONTENT_AND_FILES,PieceCategory.PRODUCTIVITY],
   authors: ['Sanket6652'],
   actions: [

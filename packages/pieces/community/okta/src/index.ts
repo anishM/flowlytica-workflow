@@ -17,7 +17,7 @@ export const okta = createPiece({
   displayName: 'Okta',
   auth: oktaAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/okta.png',
+  logoUrl: '/images/pieces/okta.png',
   authors: ['Ani-4x', 'sanket-a11y'],
   categories: [PieceCategory.PRODUCTIVITY],
   actions: [

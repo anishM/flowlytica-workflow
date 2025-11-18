@@ -24,7 +24,7 @@ export const hedy = createPiece({
   description: 'AI-powered meeting intelligence – be the brightest person in the room.',
   auth: hedyAuth,
   minimumSupportedRelease: '0.69.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/hedy.png',
+  logoUrl: '/images/pieces/hedy.png',
   categories: [PieceCategory.PRODUCTIVITY, PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ['HedyAI'],
   actions: [

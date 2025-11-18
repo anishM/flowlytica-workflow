@@ -14,7 +14,7 @@ export const devinAuth = PieceAuth.SecretText({
 export const devin = createPiece({
   displayName: 'Devin AI',
   description: 'AI-powered engineering assistant for automating development tasks, code generation, and technical conversations.',
-  logoUrl: 'https://cdn.activepieces.com/pieces/devin.png',
+  logoUrl: '/images/pieces/devin.png',
   auth: devinAuth,
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   minimumSupportedRelease: '0.20.0',

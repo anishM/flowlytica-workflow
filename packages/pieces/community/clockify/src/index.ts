@@ -40,7 +40,7 @@ export const clockify = createPiece({
 	displayName: 'Clockify',
 	auth: clockifyAuth,
 	minimumSupportedRelease: '0.36.1',
-	logoUrl: 'https://cdn.activepieces.com/pieces/clockify.png',
+	logoUrl: '/images/pieces/clockify.png',
 	authors: ['rimjhimyadav', 'kishanprmr'],
 	actions: [
 		createTaskAction,

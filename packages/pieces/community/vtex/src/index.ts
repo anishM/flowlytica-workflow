@@ -56,7 +56,7 @@ export const vtex = createPiece({
   displayName: 'VTEX',
   description: 'Unified commerce platform',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/vtex.png',
+  logoUrl: '/images/pieces/vtex.png',
   categories: [PieceCategory.COMMERCE],
   authors: ["Willianwg","kishanprmr","MoShizzle","AbdulTheActivePiecer","khaledmashaly","abuaboud"],
   auth: vtexAuth,

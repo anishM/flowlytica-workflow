@@ -66,8 +66,7 @@ export const microsoftDynamics365BusinessCentral = createPiece({
   description: 'All-in-one business management solution by Microsoft.',
   categories: [PieceCategory.SALES_AND_CRM],
   minimumSupportedRelease: '0.27.1',
-  logoUrl:
-    'https://cdn.activepieces.com/pieces/microsoft-dynamics-365-business-central.png',
+  logoUrl: '/images/pieces/microsoft-dynamics-365-business-central.png',
   authors: ['kishanprmr'],
   actions: [
     createRecordAction,

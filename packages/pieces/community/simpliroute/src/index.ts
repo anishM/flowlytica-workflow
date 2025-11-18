@@ -100,7 +100,7 @@ export const simplirouteAuth = PieceAuth.SecretText({
 export const simpliroute = createPiece({
   displayName: 'SimpliRoute',
   description: 'Connect with SimpliRoute, the last-mile delivery optimization platform. Manage clients, vehicles, visits, routes, and optimize your delivery operations.',
-  logoUrl: 'https://cdn.activepieces.com/pieces/simpliroute.png',
+  logoUrl: '/images/pieces/simpliroute.png',
   minimumSupportedRelease: '0.30.0',
   categories: [PieceCategory.PRODUCTIVITY, PieceCategory.BUSINESS_INTELLIGENCE],
   authors: ['rfjaimes-simpli'],

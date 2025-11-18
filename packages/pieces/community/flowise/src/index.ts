@@ -80,7 +80,7 @@ export const flowise = createPiece({
   displayName: 'Flowise',
   description: 'No-Code AI workflow builder',
 
-  logoUrl: 'https://cdn.activepieces.com/pieces/flowise.png',
+  logoUrl: '/images/pieces/flowise.png',
   auth: flowiseAuth,
   minimumSupportedRelease: '0.30.0',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],

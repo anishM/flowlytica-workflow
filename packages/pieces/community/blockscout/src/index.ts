@@ -41,7 +41,7 @@ export const blockscout = createPiece({
   displayName: "Blockscout",
   description: "Blockscout is a tool for inspecting and analyzing EVM chains.",
   auth: PieceAuth.None(),
-  logoUrl: 'https://cdn.activepieces.com/pieces/blockscout.png',
+  logoUrl: '/images/pieces/blockscout.png',
   authors: ['reemayoush'],
   actions: [
     search,

@@ -47,7 +47,7 @@ export const clicksend = createPiece({
   description:
     'Cloud-based messaging platform for sending SMS, MMS, voice, email, and more.',
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/clicksend.png',
+  logoUrl: '/images/pieces/clicksend.png',
   auth: clicksendAuth,
   categories: [PieceCategory.COMMUNICATION],
   actions: [

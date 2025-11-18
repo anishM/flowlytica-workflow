@@ -39,7 +39,7 @@ export const whatsapp = createPiece({
 	description: 'Manage your WhatsApp business account',
 	auth: whatsappAuth,
 	minimumSupportedRelease: '0.30.0',
-	logoUrl: 'https://cdn.activepieces.com/pieces/whatsapp.png',
+	logoUrl: '/images/pieces/whatsapp.png',
 	authors: ['LevwTech', 'kishanprmr'],
 	actions: [sendMessage, sendMedia, sendTemplateMessageAction],
 	triggers: [],

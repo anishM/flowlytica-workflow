@@ -31,10 +31,12 @@
       },
       "configurations": {
         "development": {
-          "minify": false
+          "minify": false,
+          "sourcemap": true
         },
         "production": {
-          "minify": false
+          "minify": true,
+          "sourcemap": false
         }
       }
     },
@@ -45,6 +47,9 @@
         "host": "0.0.0.0"
       },
       "configurations": {
+        "development": {
+          "buildTarget": "server-api:build:development"
+        },
         "production": {
           "buildTarget": "server-api:build:production"
         }

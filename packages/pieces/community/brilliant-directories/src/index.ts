@@ -37,7 +37,7 @@ export const brilliantDirectories = createPiece({
 
   auth: brilliantDirectoriesAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/brilliant-directories.png',
+  logoUrl: '/images/pieces/brilliant-directories.png',
   categories: [],
   authors: ["ShayPunter","dennisrongo","kishanprmr","MoShizzle","abuaboud"],
   actions: [

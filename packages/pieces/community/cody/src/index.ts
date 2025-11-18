@@ -41,7 +41,7 @@ export const cody = createPiece({
     displayName: "Cody",
     auth: codyAuth,
     minimumSupportedRelease: '0.36.1',
-    logoUrl: "https://cdn.activepieces.com/pieces/cody.png",
+    logoUrl: "/images/pieces/cody.png",
     authors: [ 'Pranith124','sanket-a11y' ],
     actions: [
         createDocumentFromText,

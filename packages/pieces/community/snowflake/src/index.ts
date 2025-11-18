@@ -71,7 +71,7 @@ export const snowflake = createPiece({
 
   auth: snowflakeAuth,
   minimumSupportedRelease: '0.27.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/snowflake.png',
+  logoUrl: '/images/pieces/snowflake.png',
   categories: [PieceCategory.DEVELOPER_TOOLS],
   authors: ['AdamSelene', 'abuaboud', 'valentin-mourtialon'],
   actions: [runQuery, runMultipleQueries, insertRowAction],

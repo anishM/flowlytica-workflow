@@ -13,7 +13,7 @@ export const resend = createPiece({
   description: 'Email for developers',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/resend.png',
+  logoUrl: '/images/pieces/resend.png',
   categories: [PieceCategory.BUSINESS_INTELLIGENCE, PieceCategory.MARKETING],
   authors: ["kishanprmr","MoShizzle","khaledmashaly","abuaboud"],
   auth: resendAuth,

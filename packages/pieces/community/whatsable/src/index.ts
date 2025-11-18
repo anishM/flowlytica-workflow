@@ -12,7 +12,7 @@ export const whatsable = createPiece({
   description: 'Manage your WhatsApp business account',
   auth: whatsableAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/whatsable.png',
+  logoUrl: '/images/pieces/whatsable.png',
   authors: ["abuaboud"],
   actions: [sendMessage],
   triggers: [],

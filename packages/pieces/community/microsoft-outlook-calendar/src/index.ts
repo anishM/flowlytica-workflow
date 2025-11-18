@@ -51,7 +51,7 @@ export const microsoftOutlookCalendar = createPiece({
   description: 'Calendar software by Microsoft',
   auth: outlookCalendarAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: "https://cdn.activepieces.com/pieces/microsoft-outlook.png",
+  logoUrl: "/images/pieces/microsoft-outlook-calendar.png",
   categories: [PieceCategory.PRODUCTIVITY],
   authors: ['antonyvigouret'],
   actions: [

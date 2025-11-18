@@ -92,7 +92,7 @@ export const drupal = createPiece({
   displayName: 'Drupal',
   auth: drupalAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/drupal.png',
+  logoUrl: '/images/pieces/drupal.png',
   categories: [
     PieceCategory.ARTIFICIAL_INTELLIGENCE,
     PieceCategory.BUSINESS_INTELLIGENCE,

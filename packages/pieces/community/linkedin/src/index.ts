@@ -29,7 +29,7 @@ export const linkedin = createPiece({
   description: 'Connect and network with professionals',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/linkedin.png',
+  logoUrl: '/images/pieces/linkedin.png',
   categories: [PieceCategory.MARKETING],
   authors: ["aasimsani","kishanprmr","MoShizzle","khaledmashaly","abuaboud"],
   auth: linkedinAuth,

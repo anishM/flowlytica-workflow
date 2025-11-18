@@ -15,7 +15,7 @@ export const cartloom = createPiece({
   description: 'Sell products beautifully',
   auth: cartloomAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/cartloom.png',
+  logoUrl: '/images/pieces/cartloom.png',
   categories: [PieceCategory.COMMERCE],
   authors: ["joeworkman","kishanprmr","MoShizzle","abuaboud"],
   actions: [

@@ -89,7 +89,7 @@ export const microsoftSharePoint = createPiece({
   displayName: 'Microsoft SharePoint',
   auth: microsoftSharePointAuth,
   minimumSupportedRelease: '0.27.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/microsoft-sharepoint.png',
+  logoUrl: '/images/pieces/microsoft-sharepoint.png',
   categories: [PieceCategory.CONTENT_AND_FILES],
   authors: ['kishanprmr', 'pranith124', 'onyedikachi-david'],
   actions: [

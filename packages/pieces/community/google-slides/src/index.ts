@@ -21,7 +21,7 @@ export const googleSlide = createPiece({
   displayName: "Google Slides",
   auth: googleSlidesAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/google-slides.png",
+  logoUrl: "/images/pieces/google-slides.png",
   authors: ["Kevinyu-alan"],
   actions: [
     getPresentation,

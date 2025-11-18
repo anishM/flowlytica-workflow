@@ -18,7 +18,7 @@ export const seven = createPiece({
   description: 'Business Messaging Gateway',
   auth: sevenAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/seven.jpg',
+  logoUrl: '/images/pieces/seven.jpg',
   categories: [PieceCategory.MARKETING],
   authors: ['seven-io'],
   actions: [sendSmsAction, sendVoiceCallAction, lookup, sendRcsAction],

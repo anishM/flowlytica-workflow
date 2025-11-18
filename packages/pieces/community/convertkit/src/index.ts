@@ -82,7 +82,7 @@ export const convertkit = createPiece({
 
   auth: convertkitAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/convertkit.png',
+  logoUrl: '/images/pieces/convertkit.png',
   categories: [PieceCategory.MARKETING],
   authors: ["Gunther-Schulz","kishanprmr","abuaboud"],
   actions: [

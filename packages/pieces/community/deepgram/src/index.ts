@@ -10,7 +10,7 @@ import { BASE_URL } from './common/constants';
 
 export const deepgramPiece = createPiece({
   displayName: 'Deepgram',
-  logoUrl: 'https://cdn.activepieces.com/pieces/deepgram.png',
+  logoUrl: '/images/pieces/deepgram.png',
   description:
     'Deepgram is an AI-powered speech recognition platform that provides real-time transcription, text-to-speech, and audio analysis capabilities.',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],

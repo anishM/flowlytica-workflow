@@ -16,7 +16,7 @@ export const serviceNow = createPiece({
   description: "Enterprise IT service management platform for incident, change, and service request management",
   auth: servicenowAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/service-now.png",
+  logoUrl: "/images/pieces/service-now.png",
   authors: ["sparkybug"],
   categories: [PieceCategory.PRODUCTIVITY],
   actions: [

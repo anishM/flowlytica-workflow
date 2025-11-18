@@ -35,7 +35,7 @@ export const zendeskSell = createPiece({
   description: "Sales CRM for pipeline management, lead tracking, and contact organization.",
   auth: zendeskSellAuth,
   minimumSupportedRelease: '0.3.61',
-  logoUrl: "https://cdn.activepieces.com/pieces/zendesk-sell.png",
+  logoUrl: "/images/pieces/zendesk-sell.png",
   authors: ['Pranith124', 'onyedikachi-david'], 
   categories: [PieceCategory.SALES_AND_CRM], 
   actions: [

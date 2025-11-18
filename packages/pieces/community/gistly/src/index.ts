@@ -37,7 +37,7 @@ export const gistly = createPiece({
   displayName: 'Gistly',
   auth: gistlyAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/gistly.svg',
+  logoUrl: '/images/pieces/gistly.svg',
   authors: ['rafalzawadzki'],
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE, PieceCategory.DEVELOPER_TOOLS, PieceCategory.CONTENT_AND_FILES],
   description: 'YouTube Transcripts',

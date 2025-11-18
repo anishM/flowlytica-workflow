@@ -14,7 +14,7 @@ export const bumpups = createPiece({
   displayName: 'Bumpups',
   auth: BumpupsAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/bumpups.png',
+  logoUrl: '/images/pieces/bumpups.png',
   authors: ['Niket2035','sanket-a11y'],
   actions: [
     generateCreatorDescription,

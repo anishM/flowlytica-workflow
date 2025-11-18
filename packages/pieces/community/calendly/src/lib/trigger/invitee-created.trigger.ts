@@ -24,7 +24,7 @@ export const calendlyInviteeCreated = createTrigger({
     payload: {
       cancel_url: 'https://calendly.com/cancellations/AAAAAAAAAAA',
       created_at: '2023-01-29T13:50:13.072950Z',
-      email: 'abdulyki@activepieces.com',
+      email: 'abdulyki@flowlytics.com',
       event: 'https://api.calendly.com/scheduled_events/AAAAAAAAAAAA',
       first_name: null,
       last_name: null,

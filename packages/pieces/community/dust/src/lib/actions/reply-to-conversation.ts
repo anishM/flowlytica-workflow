@@ -15,7 +15,7 @@ import {
 } from '../common';
 
 export const replyToConversation = createAction({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.flowlytics.com/docs/developers/piece-reference/authentication,
   name: 'replyToConversation',
   displayName: 'Reply to conversation',
   description: 'Send reply to existing conversation',

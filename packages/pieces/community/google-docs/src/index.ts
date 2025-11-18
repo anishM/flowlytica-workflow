@@ -25,7 +25,7 @@ export const googleDocs = createPiece({
 	description: 'Create and edit documents online',
 
 	minimumSupportedRelease: '0.30.0',
-	logoUrl: 'https://cdn.activepieces.com/pieces/google-docs.png',
+	logoUrl: '/images/pieces/google-docs.png',
 	categories: [PieceCategory.CONTENT_AND_FILES],
 	authors: [
 		'pfernandez98',

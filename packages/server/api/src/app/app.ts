@@ -99,7 +99,7 @@ export const setupApp = async (app: FastifyInstance): Promise<FastifyInstance> =
         openapi: {
             servers: [
                 {
-                    url: 'https://cloud.activepieces.com/api',
+                    url: 'https://cloud.flowlytics.com/api',
                     description: 'Production Server',
                 },
             ],
@@ -145,11 +145,11 @@ export const setupApp = async (app: FastifyInstance): Promise<FastifyInstance> =
                 },
             },
             info: {
-                title: 'Activepieces Documentation',
+                title: 'Flowlytics - Workflow Documentation',
                 version: '0.0.0',
             },
             externalDocs: {
-                url: 'https://www.activepieces.com/docs',
+                url: 'https://www.flowlytics.com/docs',
                 description: 'Find more info here',
             },
         },

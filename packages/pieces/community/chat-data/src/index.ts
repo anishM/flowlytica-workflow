@@ -15,7 +15,7 @@ export const chatData = createPiece({
     required: true,
   }),
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/chat-data.png',
+  logoUrl: '/images/pieces/chat-data.png',
   authors: ['sparkybug', 'onyedikachi-david'],
   actions: [
     createChatbot,

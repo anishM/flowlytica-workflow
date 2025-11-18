@@ -101,7 +101,7 @@ const appsumoController: FastifyPluginAsyncTypebox = async (
                     case 'activate':
                         return reply.status(StatusCodes.CREATED).send({
                             redirect_url:
-                'https://cloud.activepieces.com/sign-up?email=' +
+                'https://cloud.flowlytics.com/sign-up?email=' +
                 encodeURIComponent(activation_email),
                             message: 'success',
                         })

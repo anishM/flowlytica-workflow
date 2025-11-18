@@ -17,7 +17,7 @@ export const drip = createPiece({
   displayName: 'Drip',
   description: 'E-commerce CRM for B2B marketers',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/drip.png',
+  logoUrl: '/images/pieces/drip.png',
   authors: ["kishanprmr","MoShizzle","AbdulTheActivePiecer","khaledmashaly","abuaboud"],
   categories: [PieceCategory.MARKETING],
   auth: dripAuth,

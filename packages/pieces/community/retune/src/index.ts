@@ -70,7 +70,7 @@ export const retune = createPiece({
 
   auth: retuneAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/retune.png',
+  logoUrl: '/images/pieces/retune.png',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ["kishanprmr","MoShizzle","abuaboud"],
   actions: [

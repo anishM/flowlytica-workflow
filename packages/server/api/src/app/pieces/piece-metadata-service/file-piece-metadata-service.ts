@@ -23,7 +23,9 @@ import { pieceListUtils } from './utils'
 import { toPieceMetadataModelSummary } from '.'
 
 const loadPiecesMetadata = async (): Promise<PieceMetadata[]> => {
-    const packages = system.getOrThrow(AppSystemProp.DEV_PIECES)?.split(',')
+    // Load all pieces by default when AP_DEV_PIECES is not provided.
+    const devPieces = system.get(AppSystemProp.DEV_PIECES)
+    const packages = devPieces ? devPieces.split(',') : ['']
     const pieces = await filePiecesUtils(packages, system.globalLogger()).findAllPieces()
 
     return pieces.sort((a, b) =>

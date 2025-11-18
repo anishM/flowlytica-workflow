@@ -17,7 +17,7 @@ export const assembled = createPiece({
   description: 'Workforce management platform for scheduling and forecasting',
   auth: assembledAuth,
   minimumSupportedRelease: '0.20.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/assembled.png',
+  logoUrl: '/images/pieces/assembled.png',
   categories: [PieceCategory.PRODUCTIVITY, PieceCategory.HUMAN_RESOURCES],
   authors: ['meenulekha-premakumar'],
   actions: [

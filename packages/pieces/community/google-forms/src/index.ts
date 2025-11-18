@@ -22,7 +22,7 @@ export const googleForms = createPiece({
   description: 'Receive form responses from Google Forms',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/google-forms.png',
+  logoUrl: '/images/pieces/google-forms.png',
   categories: [PieceCategory.FORMS_AND_SURVEYS],
   authors: ["kishanprmr","MoShizzle","khaledmashaly","abuaboud","Startouf"],
   auth: googleFormsAuth,

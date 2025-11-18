@@ -53,7 +53,7 @@ export const zohoInvoice = createPiece({
 
   auth: zohoAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/zoho-invoice.png',
+  logoUrl: '/images/pieces/zoho-invoice.png',
   categories: [PieceCategory.ACCOUNTING],
   authors: ["kishanprmr","MoShizzle","abuaboud"],
   actions: [

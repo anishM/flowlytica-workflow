@@ -56,7 +56,7 @@ export const chargekeep = createPiece({
   description: 'Easy-to-use recurring and one-time payments software for Stripe & PayPal',
   auth: chargekeepAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/chargekeep.png',
+  logoUrl: '/images/pieces/chargekeep.png',
   categories: [PieceCategory.COMMERCE, PieceCategory.PAYMENT_PROCESSING],
   authors: ['Trayshmhirk'],
   actions: [

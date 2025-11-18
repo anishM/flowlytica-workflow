@@ -12,7 +12,7 @@ export const aiUtility = createPiece({
     PieceCategory.UNIVERSAL_AI,
   ],
   minimumSupportedRelease: '0.66.7',
-  logoUrl: 'https://cdn.activepieces.com/pieces/ai-utility.svg',
+  logoUrl: '/images/pieces/utility-ai.svg',
   authors: ['kishanprmr', 'amrdb'],
   actions: [checkModeration, classifyText, extractStructuredData],
   triggers: [],

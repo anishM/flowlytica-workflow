@@ -27,7 +27,7 @@ export const mailerLite = createPiece({
   description: 'Email marketing software',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/mailer-lite.png',
+  logoUrl: '/images/pieces/mailer-lite.png',
   categories: [PieceCategory.MARKETING],
   authors: ["Willianwg","kanarelo","kishanprmr","khaledmashaly","abuaboud"],
   auth: mailerLiteAuth,

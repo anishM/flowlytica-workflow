@@ -81,7 +81,7 @@ export const ibmCognose = createPiece({
     'Business intelligence and performance management suite for data analysis and reporting',
   auth: ibmCognoseAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/ibm-cognose.png',
+  logoUrl: '/images/pieces/ibm-cognose.png',
   categories: [PieceCategory.BUSINESS_INTELLIGENCE],
   authors: ['fortunamide', 'onyedikachi-david'],
   actions: [

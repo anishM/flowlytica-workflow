@@ -12,7 +12,7 @@ export const runware = createPiece({
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   auth: runwareAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/runware.png',
+  logoUrl: '/images/pieces/runware.png',
   authors: ['LuizDMM','sanket-a11y'],
   actions: [ 
     generateImagesFromText,

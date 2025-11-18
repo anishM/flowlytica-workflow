@@ -50,7 +50,7 @@ export const dust = createPiece({
   description: 'Secure messaging and collaboration',
   auth: dustAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/dust.png',
+  logoUrl: '/images/pieces/dust.png',
   authors: ['AdamSelene', 'abuaboud'],
   actions: [
     createConversation,

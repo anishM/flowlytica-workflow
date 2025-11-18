@@ -61,7 +61,7 @@ export const smaily = createPiece({
   displayName: 'Smaily',
   auth: smailyAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/smaily.png',
+  logoUrl: '/images/pieces/smaily.png',
   categories: [PieceCategory.MARKETING],
   authors: ['kishanprmr'],
   actions: [createOrUpdateSubscriberAction, getSubscriberAction,

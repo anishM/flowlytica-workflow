@@ -20,7 +20,7 @@ export const pandadoc = createPiece({
   displayName: 'PandaDoc',
   auth: pandadocAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/pandadoc.png',
+  logoUrl: '/images/pieces/pandadoc.png',
   categories:[PieceCategory.CONTENT_AND_FILES,PieceCategory.PRODUCTIVITY],
   authors: ['onyedikachi-david'],
   actions: [

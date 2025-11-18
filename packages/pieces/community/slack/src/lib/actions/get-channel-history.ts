@@ -4,7 +4,7 @@ import { slackAuth } from '../..';
 import { singleSelectChannelInfo, slackChannel } from '../common/props';
 
 export const getChannelHistory = createAction({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.flowlytics.com/docs/developers/piece-reference/authentication,
   name: 'getChannelHistory',
   auth: slackAuth,
   displayName: 'Get channel history',

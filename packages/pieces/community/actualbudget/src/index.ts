@@ -43,7 +43,7 @@ export const actualbudget = createPiece({
   description: 'Personal finance app',
   auth: actualBudgetAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/actualbudget.png',
+  logoUrl: '/images/pieces/actualbudget.png',
   categories: [PieceCategory.ACCOUNTING],
   authors: ['hugh-codes'],
 

@@ -21,7 +21,7 @@ export const figma = createPiece({
   displayName: 'Figma',
   description: 'Collaborative interface design tool',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/figma.png',
+  logoUrl: '/images/pieces/figma.png',
   categories: [],
   authors: ["kishanprmr","MoShizzle","khaledmashaly","abuaboud"],
   auth: figmaAuth,

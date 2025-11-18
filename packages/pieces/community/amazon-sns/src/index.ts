@@ -175,7 +175,7 @@ export const amazonSns = createPiece({
   displayName: "Amazon SNS",
   auth: amazonSnsAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/amazon-sns.png",
+  logoUrl: "/images/pieces/amazon-sns.png",
   authors: ["coat"],
   actions: [sendMessageAction],
   triggers: [],

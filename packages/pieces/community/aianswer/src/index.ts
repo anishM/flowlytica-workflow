@@ -47,7 +47,7 @@ export const aianswer = createPiece({
   displayName: 'AI Answer',
   auth: aiAnswerAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/aianswer.png',
+  logoUrl: '/images/pieces/aianswer.png',
   categories: [
     PieceCategory.COMMUNICATION,
     PieceCategory.CUSTOMER_SUPPORT,

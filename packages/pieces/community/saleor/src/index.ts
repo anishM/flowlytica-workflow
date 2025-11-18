@@ -24,7 +24,7 @@ export const saleor = createPiece({
   displayName: "Saleor",
   auth: saleorAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/saleor.png",
+  logoUrl: "/images/pieces/saleor.png",
   authors: ["Kevinyu-alan"],
   actions: [
     saleorRawGraphqlQuery,

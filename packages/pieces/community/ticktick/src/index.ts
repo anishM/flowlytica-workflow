@@ -18,7 +18,7 @@ export const ticktickAuth = PieceAuth.OAuth2({
 
 export const ticktick = createPiece({
 	displayName: 'TickTick',
-	logoUrl: 'https://cdn.activepieces.com/pieces/ticktick.png',
+	logoUrl: '/images/pieces/ticktick.png',
 	auth: ticktickAuth,
 	authors: ['onyedikachi-david', 'kishanprmr'],
 	actions: [

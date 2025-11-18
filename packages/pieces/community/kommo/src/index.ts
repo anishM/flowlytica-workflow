@@ -29,7 +29,7 @@ export const kommoAuth = PieceAuth.CustomAuth({
 export const kommo = createPiece({
   displayName: 'Kommo',
   auth: kommoAuth,
-  logoUrl: 'https://cdn.activepieces.com/pieces/kommo.png',
+  logoUrl: '/images/pieces/kommo.png',
   categories: [PieceCategory.COMMUNICATION, PieceCategory.SALES_AND_CRM],
   authors: ['krushnarout', 'kishanprmr'],
   actions: [findLeadAction, updateContactAction, createLeadAction, updateLeadAction, createContactAction, findContactAction, findCompanyAction,

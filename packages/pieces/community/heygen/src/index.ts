@@ -18,7 +18,7 @@ export const heygen = createPiece({
   description: 'Generate and manage AI avatar videos using HeyGen.',
   auth: heygenAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/heygen.jpg',
+  logoUrl: '/images/pieces/heygen.jpg',
   authors: ['krushnarout'],
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   actions: [

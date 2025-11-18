@@ -12,7 +12,7 @@ import { ApErrorParams, ErrorCode, isNil } from '@activepieces/shared';
 
 export const API_BASE_URL =
   import.meta.env.MODE === 'cloud'
-    ? 'https://cloud.activepieces.com'
+    ? 'https://cloud.flowlytics.com'
     : window.location.origin;
 export const API_URL = `${API_BASE_URL}/api`;
 

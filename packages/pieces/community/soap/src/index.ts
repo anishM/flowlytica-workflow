@@ -9,7 +9,7 @@ export const soap = createPiece({
 
   auth: soapAuth(),
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/soap.png',
+  logoUrl: '/images/pieces/soap.png',
   authors: ["x7airworker","kishanprmr","abuaboud"],
   categories: [],
   actions: [callMethod],

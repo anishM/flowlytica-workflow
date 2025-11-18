@@ -5,6 +5,7 @@ import { system } from '../../../../../../../../src/app/helper/system/system'
 import { tableGenerator } from '../../../../../../../helpers/table-generator'
 
 describe('Table Diff Service', () => {
+    const toTableState = (table = tableGenerator.simpleTable({})) => projectStateService(system.globalLogger()).getTableState(table)
 
     it('should return the table to delete', async () => {
         const tableTwo = tableGenerator.simpleTable({})
@@ -224,12 +225,11 @@ describe('Table Diff Service', () => {
     })
 
     it('should not detect table as changed when only id field differs', async () => {
-        const tableOne = tableGenerator.simpleTable({})
-        const tableTwo = tableGenerator.simpleTable({ externalId: tableOne.externalId })
-
-        // Ensure all fields are identical
-        tableTwo.name = tableOne.name
-        tableTwo.fields = tableOne.fields
+        const tableOne = toTableState()
+        const tableTwo = {
+            ...tableOne,
+            id: nanoid(),
+        }
 
         const diff = await projectDiffService.diff({
             currentState: {
@@ -246,30 +246,29 @@ describe('Table Diff Service', () => {
     })
 
     it('should not detect table as changed when properties are in different order', async () => {
-        const tableOne = tableGenerator.simpleTable({})
+        const tableOne = toTableState()
         
-        // Create table with same content but different property ordering
-        // This tests that deepEqual correctly handles property order independence
-        const tableTwo = {
-            fields: tableOne.fields, // fields first
-            externalId: tableOne.externalId, // externalId second  
-            name: tableOne.name, // name third
-            id: tableOne.id, // id last
+        const tableTwo: typeof tableOne = {
+            fields: tableOne.fields,
+            externalId: tableOne.externalId,
+            name: tableOne.name,
+            id: tableOne.id,
         }
 
-        // Also test with fields in different order but same content
         const tableThree = {
             ...tableOne,
             fields: [
                 {
-                    externalId: tableOne.fields[0].externalId, // externalId first
-                    type: tableOne.fields[0].type, // type second
-                    name: tableOne.fields[0].name, // name last
+                    externalId: tableOne.fields[0].externalId,
+                    type: tableOne.fields[0].type,
+                    name: tableOne.fields[0].name,
+                    data: tableOne.fields[0].data,
                 },
                 {
-                    type: tableOne.fields[1].type, // type first
-                    name: tableOne.fields[1].name, // name second
-                    externalId: tableOne.fields[1].externalId, // externalId last
+                    type: tableOne.fields[1].type,
+                    name: tableOne.fields[1].name,
+                    externalId: tableOne.fields[1].externalId,
+                    data: tableOne.fields[1].data,
                 },
             ],
         }

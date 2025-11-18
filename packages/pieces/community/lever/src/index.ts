@@ -29,7 +29,7 @@ export const lever = createPiece({
     'Lever is a modern, collaborative recruiting platform that powers a more human approach to hiring.',
   categories: [PieceCategory.HUMAN_RESOURCES],
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/lever.png',
+  logoUrl: '/images/pieces/lever.png',
   authors: ['AdamSelene'],
   actions: [
     getOpportunity,

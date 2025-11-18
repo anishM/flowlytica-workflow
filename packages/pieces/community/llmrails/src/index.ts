@@ -33,7 +33,7 @@ export const llmrails = createPiece({
   description: 'LLM Rails Platform',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/llmrails.png',
+  logoUrl: '/images/pieces/llmrails.png',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ["w95","kishanprmr","MoShizzle","abuaboud"],
   auth: llmrailsAuth,

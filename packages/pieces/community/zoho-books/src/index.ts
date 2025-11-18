@@ -53,7 +53,7 @@ export const zohoBooksAuth = PieceAuth.OAuth2({
 export const zohoBooks = createPiece({
   displayName: "Zoho Books",
   description: 'Comprehensive online accounting software for small businesses.',
-  logoUrl: "https://cdn.activepieces.com/pieces/zoho-books.png",
+  logoUrl: "/images/pieces/zoho-books.png",
   minimumSupportedRelease: '0.30.0',
   categories: [PieceCategory.ACCOUNTING],
   authors: ["ikus060"],

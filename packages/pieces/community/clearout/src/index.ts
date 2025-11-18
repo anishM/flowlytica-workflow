@@ -9,7 +9,7 @@ export const clearout = createPiece({
   description: 'Bulk email validation and verification',
   auth: clearoutAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/clearout.png',
+  logoUrl: '/images/pieces/clearout.png',
   categories: [PieceCategory.SALES_AND_CRM],
   authors: ["joeworkman","kishanprmr","MoShizzle","abuaboud"],
   actions: [

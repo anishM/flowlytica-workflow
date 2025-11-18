@@ -85,7 +85,7 @@ export const twitter = createPiece({
   displayName: 'Twitter',
   description: 'Social media platform with over 500 million user',
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/twitter.png',
+  logoUrl: '/images/pieces/twitter.png',
   categories: [PieceCategory.COMMUNICATION],
   authors: ["Abdallah-Alwarawreh","Salem-Alaa","kishanprmr","AbdulTheActivePiecer","khaledmashaly","abuaboud"],
   auth: twitterAuth,

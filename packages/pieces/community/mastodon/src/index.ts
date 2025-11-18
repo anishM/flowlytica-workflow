@@ -41,7 +41,7 @@ export const mastodon = createPiece({
   displayName: 'Mastodon',
   description: 'Open-source decentralized social network',
 
-  logoUrl: 'https://cdn.activepieces.com/pieces/mastodon.png',
+  logoUrl: '/images/pieces/mastodon.png',
   categories: [PieceCategory.COMMUNICATION],
   minimumSupportedRelease: '0.30.0',
   authors: ["denieler","kishanprmr","MoShizzle","khaledmashaly","abuaboud"],

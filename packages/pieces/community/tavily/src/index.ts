@@ -46,7 +46,7 @@ export const tavily = createPiece({
 	displayName: 'Tavily',
 	description: 'Search engine tailored for AI agents.',
 	minimumSupportedRelease: '0.30.0',
-	logoUrl: 'https://cdn.activepieces.com/pieces/tavily.jpg',
+	logoUrl: '/images/pieces/tavily.jpg',
 	categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
 	authors: ['OsamaHaikal'],
 	auth: tavilyAuth,

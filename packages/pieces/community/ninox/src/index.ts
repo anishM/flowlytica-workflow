@@ -15,7 +15,7 @@ export const ninox = createPiece({
 	displayName: 'Ninox',
 	auth: NinoxAuth,
 	minimumSupportedRelease: '0.36.1',
-	logoUrl: 'https://cdn.activepieces.com/pieces/ninox.png',
+	logoUrl: '/images/pieces/ninox.png',
 	authors: ['Sanket6652'],
 	actions: [
 		createRecord,

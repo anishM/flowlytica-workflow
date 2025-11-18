@@ -17,7 +17,7 @@ export const piecesZohoDesk = createPiece({
 	auth: zohoDeskAuth,
 	categories: [PieceCategory.CUSTOMER_SUPPORT],
 	minimumSupportedRelease: '0.36.1',
-	logoUrl: 'https://cdn.activepieces.com/pieces/zoho-desk.png',
+	logoUrl: '/images/pieces/zoho-desk.png',
 	authors: ['volubile', 'kishanprmr'],
 	actions: [
 		listTicketsAction,

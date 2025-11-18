@@ -4,7 +4,7 @@ import { intercomAuth } from '../..';
 import { intercomClient } from '../common';
 
 export const noteAddedToConversation = createTrigger({
-	// auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+	// auth: check https://www.flowlytics.com/docs/developers/piece-reference/authentication,
 	name: 'noteAddedToConversation',
 	displayName: 'Note added to conversation',
 	description: 'Triggers when a note is added to a conversation',

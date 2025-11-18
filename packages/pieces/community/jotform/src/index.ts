@@ -52,7 +52,7 @@ export const jotform = createPiece({
   description: 'Create online forms and surveys',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/jotform.svg',
+  logoUrl: '/images/pieces/jotform.svg',
   categories: [PieceCategory.FORMS_AND_SURVEYS],
   authors: ["kishanprmr","MoShizzle","khaledmashaly","abuaboud", "PFernandez98"],
   auth: jotformAuth,

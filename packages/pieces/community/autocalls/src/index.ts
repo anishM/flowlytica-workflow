@@ -50,7 +50,7 @@ export const autocalls = createPiece({
   displayName: "Autocalls",
   auth:autocallsAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/autocalls.png",
+  logoUrl: "/images/pieces/autocalls.png",
   description: "Automate phone calls using our AI calling platform.",
   authors: ['Zebi15'],
   actions: [addLead,sendSms,campaignControl,makePhoneCall,deleteLead],

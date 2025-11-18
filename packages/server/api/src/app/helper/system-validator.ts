@@ -39,6 +39,14 @@ function urlValidator(value: string) {
     }
 }
 
+export function piecesRegistryUrlValidator(value: string) {
+    const normalizedValue = value.trim().toLowerCase()
+    if (normalizedValue === 'local') {
+        return true
+    }
+    return urlValidator(value)
+}
+
 const systemPropValidators: {
     [key in SystemProp]: (value: string) => true | string
 } = {
@@ -127,6 +135,7 @@ const systemPropValidators: {
     [AppSystemProp.SMTP_USERNAME]: stringValidator,
     [AppSystemProp.TELEMETRY_ENABLED]: booleanValidator,
     [AppSystemProp.TEMPLATES_SOURCE_URL]: stringValidator,
+    [AppSystemProp.PIECES_REGISTRY_URL]: piecesRegistryUrlValidator,
     [AppSystemProp.TRIGGER_DEFAULT_POLL_INTERVAL]: numberValidator,
     [AppSystemProp.WEBHOOK_TIMEOUT_SECONDS]: numberValidator,
     [AppSystemProp.APPSUMO_TOKEN]: stringValidator,
@@ -178,9 +187,13 @@ const validateSystemPropTypes = () => {
     const errors: {
         [key in SystemProp]?: string
     } = {}
+    const treatEmptyAsUndefined = new Set<SystemProp>([
+        AppSystemProp.API_KEY,
+    ])
 
     for (const prop of systemProperties) {
-        const value = system.get(prop)
+        const rawValue = system.get(prop)
+        const value = treatEmptyAsUndefined.has(prop) && rawValue === '' ? undefined : rawValue
         const onlyValidateIfValueIsSet = !isNil(value)
         if (onlyValidateIfValueIsSet) {
             const validationResult = systemPropValidators[prop](value)
@@ -203,7 +216,7 @@ export const validateEnvPropsOnStartup = async (log: FastifyBaseLogger): Promise
         catch (error: unknown) {
             throw new Error(JSON.stringify({
                 message: 'S3 validation failed. Check your configuration and credentials.',
-                docUrl: 'https://www.activepieces.com/docs/install/configuration/overview#configure-s3-optional',
+                docUrl: 'https://www.flowlytics.com/docs/install/configuration/overview#configure-s3-optional',
             }))
         }
     }
@@ -219,7 +232,7 @@ export const validateEnvPropsOnStartup = async (log: FastifyBaseLogger): Promise
     if (!isNil(codeSandboxType)) {
         throw new Error(JSON.stringify({
             message: 'AP_CODE_SANDBOX_TYPE is deprecated, please use AP_EXECUTION_MODE instead',
-            docUrl: 'https://www.activepieces.com/docs/install/configuration/overview',
+            docUrl: 'https://www.flowlytics.com/docs/install/configuration/overview',
         }))
     }
     const encryptionKey = await encryptUtils.getEncryptionKey()
@@ -227,7 +240,7 @@ export const validateEnvPropsOnStartup = async (log: FastifyBaseLogger): Promise
     if (!isValidHexKey) {
         throw new Error(JSON.stringify({
             message: 'AP_ENCRYPTION_KEY is missing or invalid. It must be a 32-character hexadecimal string (representing 16 bytes). You can generate one using the command: `openssl rand -hex 16`',
-            docUrl: 'https://www.activepieces.com/docs/install/configuration/environment-variables',
+            docUrl: 'https://www.flowlytics.com/docs/install/configuration/environment-variables',
         }))
     }
     const isApp = system.isApp()
@@ -245,7 +258,7 @@ export const validateEnvPropsOnStartup = async (log: FastifyBaseLogger): Promise
     if (isNil(jwtSecret)) {
         throw new Error(JSON.stringify({
             message: 'AP_JWT_SECRET is undefined, please define it in the environment variables',
-            docUrl: 'https://www.activepieces.com/docs/install/configuration/environment-variables',
+            docUrl: 'https://www.flowlytics.com/docs/install/configuration/environment-variables',
         }))
     }
 
@@ -255,7 +268,7 @@ export const validateEnvPropsOnStartup = async (log: FastifyBaseLogger): Promise
         if (![ExecutionMode.SANDBOX_PROCESS, ExecutionMode.SANDBOX_CODE_ONLY, ExecutionMode.SANDBOX_CODE_AND_PROCESS].includes(executionMode)) {
             throw new Error(JSON.stringify({
                 message: `Execution mode ${executionMode} is no longer supported in this edition, check the documentation for recent changes`,
-                docUrl: 'https://www.activepieces.com/docs/install/configuration/overview',
+                docUrl: 'https://www.flowlytics.com/docs/install/configuration/overview',
             }))
         }
     }

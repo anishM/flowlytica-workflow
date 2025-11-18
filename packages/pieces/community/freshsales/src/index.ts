@@ -38,7 +38,7 @@ export const freshsales = createPiece({
   description: 'Sales CRM software',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/freshsales.png',
+  logoUrl: '/images/pieces/freshsales.png',
   categories: [PieceCategory.SALES_AND_CRM],
   authors: ["kishanprmr","MoShizzle","khaledmashaly","abuaboud"],
   auth: freshsalesAuth,

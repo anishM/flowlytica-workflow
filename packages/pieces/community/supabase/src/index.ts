@@ -130,7 +130,7 @@ export const supabase = createPiece({
   description: 'The open-source Firebase alternative',
   auth: supabaseAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/supabase.png',
+  logoUrl: '/images/pieces/supabase.png',
   categories: [PieceCategory.DEVELOPER_TOOLS],
   authors: ["kishanprmr","MoShizzle","abuaboud","fortunamide"],
   actions: [

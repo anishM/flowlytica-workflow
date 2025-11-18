@@ -48,7 +48,7 @@ import { postTransaction } from './lib/actions/transactions/post-transaction';
 export const mempoolSpace = createPiece({
   displayName: 'Mempool',
   description: 'The mempool.space website invented the concept of visualizing a Bitcoin node\'s mempool as projected blocks.',
-  logoUrl: 'https://cdn.activepieces.com/pieces/mempool-space.png',
+  logoUrl: '/images/pieces/mempool-space.png',
   minimumSupportedRelease: '0.20.0',
   authors: ['reemayoush'],
   auth: PieceAuth.None(),

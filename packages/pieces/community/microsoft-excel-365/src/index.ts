@@ -84,7 +84,7 @@ export const microsoftExcel = createPiece({
 
   auth: excelAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/microsoft-excel-365.png',
+  logoUrl: '/images/pieces/microsoft-excel-365.png',
   categories: [PieceCategory.PRODUCTIVITY],
   authors: ['BastienMe', 'kishanprmr', 'MoShizzle', 'abuaboud', 'Pranith124', 'onyedikachi-david'],
   actions: [

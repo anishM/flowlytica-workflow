@@ -62,7 +62,7 @@ export const airtable = createPiece({
   description: 'Low‒code platform to build apps.',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/airtable.png',
+  logoUrl: '/images/pieces/airtable.png',
   authors: [
     'kanarelo',
     'TaskMagicKyle',

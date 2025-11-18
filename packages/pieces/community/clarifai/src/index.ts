@@ -53,7 +53,7 @@ export const clarifai = createPiece({
   displayName: 'Clarifai',
   description: 'AI-powered visual recognition',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/clarifai.png',
+  logoUrl: '/images/pieces/clarifai.png',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ["akatechis","zeiler","Salem-Alaa","kishanprmr","MoShizzle","abuaboud"],
   auth: clarifaiAuth,

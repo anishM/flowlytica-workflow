@@ -14,7 +14,7 @@ export const oracleDatabase = createPiece({
   description: 'Enterprise-grade relational database',
   auth: oracleDbAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/oracle-database.png',
+  logoUrl: '/images/pieces/oracle-database.png',
   categories: [PieceCategory.DEVELOPER_TOOLS],
   authors: ['Prabhukiran161', 'onyedikachi-david'],
   actions: [

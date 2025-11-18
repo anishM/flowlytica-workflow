@@ -29,7 +29,7 @@ export const quickbooks = createPiece({
   displayName: "Quickbooks Online",
   auth: quickbooksAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/quickbooks.png",
+  logoUrl: "/images/pieces/quickbooks.png",
   authors: [
     'onyedikachi-david'
   ],

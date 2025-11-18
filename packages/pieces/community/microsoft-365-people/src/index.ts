@@ -14,7 +14,7 @@ export const microsoft365People = createPiece({
   description: 'Manage contacts in Microsoft 365 People',
   auth: microsoft365PeopleAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/microsoft-365-people.png',
+  logoUrl: '/images/pieces/microsoft-365-people.png',
   authors: ['LuizDMM'],
   actions: [
     createContact,

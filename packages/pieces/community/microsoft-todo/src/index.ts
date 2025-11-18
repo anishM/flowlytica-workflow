@@ -63,7 +63,7 @@ export const microsoftTodo = createPiece({
     categories: [PieceCategory.PRODUCTIVITY],
     auth: microsoftToDoAuth,
     minimumSupportedRelease: '0.36.1',
-    logoUrl: 'https://cdn.activepieces.com/pieces/microsoft-todo.png',
+    logoUrl: '/images/pieces/microsoft-todo.png',
     authors: ['onyedikachi-david','david-oluwaseun420'],
     actions: [
         createTask,

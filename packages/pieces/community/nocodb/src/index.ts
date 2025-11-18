@@ -42,7 +42,7 @@ export const nocodb = createPiece({
 	displayName: 'NocoDB',
 	auth: nocodbAuth,
 	minimumSupportedRelease: '0.30.0',
-	logoUrl: 'https://cdn.activepieces.com/pieces/nocodb.png',
+	logoUrl: '/images/pieces/nocodb.png',
 	authors: ['kishanprmr'],
 	actions: [
 		createRecordAction,

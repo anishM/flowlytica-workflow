@@ -24,7 +24,7 @@ export const copyAiAuth = PieceAuth.SecretText({
 export const copyAi = createPiece({
 	displayName: 'Copy.ai',
 	description: 'AI-powered content generation and copywriting platform',
-	logoUrl: 'https://cdn.activepieces.com/pieces/copy-ai.png',
+	logoUrl: '/images/pieces/copy-ai.png',
 	authors: ['AnkitSharmaOnGithub'],
 	auth: copyAiAuth,
 	actions: [runWorkflowAction, getWorkflowRunStatusAction, getWorkflowRunOutputsAction],

@@ -12,7 +12,7 @@ export const runway = createPiece({
   description: "AI-powered content generation platform for creating high-quality images and videos using text prompts",
   auth: runwayAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/runway.png",
+  logoUrl: "/images/pieces/runway.png",
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ["sparkybug"],
   actions: [generateImageFromText, generateVideoFromImage, getTaskDetails, cancelOrDeleteTask],

@@ -22,7 +22,7 @@ export const hunter = createPiece({
   description: 'Find, verify and manage professional email addresses at scale. Automate email discovery, validation, lead tracking, and campaign outreach with Hunter.io.',
   auth: hunterAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/hunter.png",
+  logoUrl: "/images/pieces/hunter.png",
   authors: ['varshith257'],
   categories: [PieceCategory.SALES_AND_CRM],
   actions: [

@@ -13,7 +13,7 @@ export const murfApi = createPiece({
   displayName: "Murf AI",
   auth: murfAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/murf-api.png',
+  logoUrl: '/images/pieces/murf-api.png',
   authors: ['Niket2035'],
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   actions: [

@@ -49,7 +49,7 @@ export const mautic = createPiece({
   description: 'Open-source marketing automation software',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/mautic.png',
+  logoUrl: '/images/pieces/mautic.png',
   authors: ["bibhuty-did-this","kanarelo","kishanprmr","MoShizzle","khaledmashaly","abuaboud"],
   categories: [PieceCategory.MARKETING],
   auth: mauticAuth,

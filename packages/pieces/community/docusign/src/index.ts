@@ -113,7 +113,7 @@ export const docusign = createPiece({
   displayName: 'Docusign',
   auth: docusignAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/docusign.png',
+  logoUrl: '/images/pieces/docusign.png',
   authors: ['AdamSelene'],
   actions: [
     listEnvelopes,

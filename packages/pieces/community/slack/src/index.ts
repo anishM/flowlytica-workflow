@@ -90,7 +90,7 @@ export const slack = createPiece({
   displayName: 'Slack',
   description: 'Channel-based messaging platform',
   minimumSupportedRelease: '0.66.7',
-  logoUrl: 'https://cdn.activepieces.com/pieces/slack.png',
+  logoUrl: '/images/pieces/slack.png',
   categories: [PieceCategory.COMMUNICATION],
   auth: slackAuth,
   events: {

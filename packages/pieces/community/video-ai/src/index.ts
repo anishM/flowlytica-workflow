@@ -7,7 +7,7 @@ export const videoAI = createPiece({
   displayName: "Video AI",
   auth: PieceAuth.None(),
   minimumSupportedRelease: '0.68.2',
-  logoUrl: "https://cdn.activepieces.com/pieces/video-ai-piece.svg",
+  logoUrl: "/images/pieces/video-ai.svg",
   authors: ['amrdb'],
   actions: [generateVideo],
   triggers: [],

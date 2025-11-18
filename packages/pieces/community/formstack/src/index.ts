@@ -18,7 +18,7 @@ export const formstack = createPiece({
   displayName: 'Formstack',
   auth: formStackAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/formstack.png',
+  logoUrl: '/images/pieces/formstack.png',
   authors: ['Sanket6652', 'onyedikachi-david'],
   actions: [
     createSubmission,

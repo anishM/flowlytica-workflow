@@ -32,7 +32,7 @@ export const kallabotAuth = PieceAuth.SecretText({
 export const kallabotAi = createPiece({
   displayName: 'Kallabot',
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/kallabot-ai.png',
+  logoUrl: '/images/pieces/kallabot-ai.png',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ['abdulrahmanmajid'],
   auth: kallabotAuth,

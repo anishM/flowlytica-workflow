@@ -38,7 +38,7 @@ export const attio = createPiece({
 	description: 'Modern, collaborative CRM platform built to be fully customizable and real-time.',
 	auth: attioAuth,
 	minimumSupportedRelease: '0.36.1',
-	logoUrl: 'https://cdn.activepieces.com/pieces/attio.png',
+	logoUrl: '/images/pieces/attio.png',
 	categories: [PieceCategory.SALES_AND_CRM],
 	authors: ['AnkitSharmaOnGithub', 'kishanprmr'],
 	actions: [

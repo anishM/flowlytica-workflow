@@ -4,7 +4,7 @@ import { PieceCategory } from '@activepieces/shared';
 export const generatebanners = createPiece({
   name: 'generatebanners',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/generatebanners.png',
+  logoUrl: 'https://cdn.flowlytics.com/pieces/generatebanners.png',
   authors: ['tpatel'],
   categories: [PieceCategory.MARKETING],
   actions: [renderTemplate],

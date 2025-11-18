@@ -12,7 +12,7 @@ export const skyvern = createPiece({
 	displayName: 'Skyvern',
 	auth: skyvernAuth,
 	minimumSupportedRelease: '0.36.1',
-	logoUrl: 'https://cdn.activepieces.com/pieces/skyvern.jpg',
+	logoUrl: '/images/pieces/skyvern.jpg',
 	authors: ['rimjhimyadav','kishanprmr'],
 	actions: [
 		runAgentTaskAction,

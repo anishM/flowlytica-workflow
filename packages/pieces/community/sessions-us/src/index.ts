@@ -53,7 +53,7 @@ export const sessionsUs = createPiece({
   description: 'Video conferencing platform for businesses and professionals',
   auth: sessionAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/sessions-us.png',
+  logoUrl: '/images/pieces/sessions-us.png',
   authors: ["kishanprmr","MoShizzle","abuaboud"],
   categories: [PieceCategory.BUSINESS_INTELLIGENCE],
   actions: [

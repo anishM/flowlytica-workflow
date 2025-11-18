@@ -10,7 +10,7 @@ export const assemblyai = createPiece({
   description:
     "Transcribe and extract data from audio using AssemblyAI's Speech AI.",
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/assemblyai.png',
+  logoUrl: '/images/pieces/assemblyai.png',
   authors: ['AssemblyAI'],
   actions: [
     actions.uploadFile,

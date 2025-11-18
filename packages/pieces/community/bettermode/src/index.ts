@@ -12,7 +12,7 @@ export const bettermode = createPiece({
   description: 'Feature-rich engagement platform. Browse beautifully designed templates, each flexible for precise customization to your needs.',
   auth: bettermodeAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/bettermode.png',
+  logoUrl: '/images/pieces/bettermode.png',
   categories: [PieceCategory.MARKETING],
   authors: ["joeworkman","kishanprmr","MoShizzle","abuaboud"],
   actions: [

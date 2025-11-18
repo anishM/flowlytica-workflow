@@ -17,7 +17,7 @@ import { newEmailReceivedTrigger } from './lib/triggers/new-email-received-trigg
 
 export const zohoMail = createPiece({
 	displayName: 'Zoho Mail',
-	logoUrl: 'https://cdn.activepieces.com/pieces/zoho-mail.png',
+	logoUrl: '/images/pieces/zoho-mail.png',
 	auth: zohoMailAuth,
 	authors: ['onyedikachi-david', 'kishanprmr', 'kdurek'],
 	description:

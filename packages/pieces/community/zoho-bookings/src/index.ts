@@ -13,7 +13,7 @@ export const zohoBookings = createPiece({
     'Zoho Bookings is an appointment scheduling software for managing bookings, services, and customer appointments.',
   auth: zohoBookingsAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/zoho-bookings.png',
+  logoUrl: '/images/pieces/zoho-bookings.png',
   authors: ['fortunamide', 'sanket-a11y'],
   actions: [
     bookAppointment,

@@ -10,8 +10,11 @@ export const oauthAppsApi = {
   listCloudOAuthApps(
     edition: ApEdition,
   ): Promise<Record<string, { clientId: string }>> {
+    if (edition !== ApEdition.CLOUD) {
+      return Promise.resolve({});
+    }
     return api.get<Record<string, { clientId: string }>>(
-      'https://secrets.activepieces.com/apps',
+      'https://secrets.flowlytics.com/apps',
       {
         edition,
       },

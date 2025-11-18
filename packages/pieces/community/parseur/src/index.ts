@@ -18,7 +18,7 @@ export const parseur = createPiece({
     'Parseur is a document/email parsing tool that extracts structured data from emails, attachments, PDFs, invoices, forms, etc. It supports dynamic templates and table fields, and delivers parsed output to integrations (e.g. via webhook or API). This integration enables reactive workflows based on new processed documents, failed processing, mailbox changes, and more.',
   auth: parseurAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/parseur.png',
+  logoUrl: '/images/pieces/parseur.png',
   authors: ['LuizDMM'],
   actions: [
     getParsedDocumentById,

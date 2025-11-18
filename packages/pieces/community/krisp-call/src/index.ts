@@ -42,7 +42,7 @@ export const KrispCall = createPiece({
   categories: [PieceCategory.COMMUNICATION],
   auth: krispcallAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/krispcall.svg',
+  logoUrl: '/images/pieces/krisp-call.svg',
   authors: ['deependra321'],
   actions: [addContact, deleteContacts, sendSms, sendMms],
   triggers: triggers,

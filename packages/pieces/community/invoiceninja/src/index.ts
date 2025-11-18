@@ -38,7 +38,7 @@ export const invoiceninja = createPiece({
   description: 'Free open-source invoicing tool',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/invoiceninja.png',
+  logoUrl: '/images/pieces/invoiceninja.png',
   categories: [PieceCategory.ACCOUNTING],
   authors: ["buttonsbond","kishanprmr","MoShizzle","AbdulTheActivePiecer","khaledmashaly","abuaboud"],
   auth: invoiceninjaAuth,

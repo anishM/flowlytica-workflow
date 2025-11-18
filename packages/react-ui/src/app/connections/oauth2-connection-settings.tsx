@@ -192,10 +192,12 @@ const OAuth2ConnectionSettingsForm = ({
     ApFlagId.THIRD_PARTY_AUTH_PROVIDER_REDIRECT_URL,
   );
   const [readyToConnect, setReadyToConnect] = useState(false);
+  const fallbackRedirectUrl =
+    thirdPartyUrl ?? `${window.location.origin}/oauth/callback`;
   const redirectUrl =
     currentOAuth2Type === AppConnectionType.CLOUD_OAUTH2
-      ? 'https://secrets.activepieces.com/redirect'
-      : thirdPartyUrl;
+      ? fallbackRedirectUrl
+      : thirdPartyUrl ?? fallbackRedirectUrl;
 
   const form = useFormContext<{
     request:

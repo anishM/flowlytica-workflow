@@ -13,7 +13,7 @@ import { BASE_URL } from './lib/common';
 
 export const circle = createPiece({
 	displayName: 'Circle',
-	logoUrl: 'https://cdn.activepieces.com/pieces/circle.png',
+	logoUrl: '/images/pieces/circle.png',
 	description: 'Circle.so is a platform for creating and managing communities.',
 	auth: circleAuth,
 	minimumSupportedRelease: '0.36.1',

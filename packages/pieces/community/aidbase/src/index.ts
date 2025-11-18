@@ -23,7 +23,7 @@ export const aidbase = createPiece({
   auth: aidbaseAuth,
   minimumSupportedRelease: '0.36.1',
   categories:[PieceCategory.CUSTOMER_SUPPORT, PieceCategory.COMMUNICATION],
-  logoUrl: 'https://cdn.activepieces.com/pieces/aidbase.png',
+  logoUrl: '/images/pieces/aidbase.png',
   authors: ['Prabhukiran161', 'sanket-a11y'],
   actions: [
     addVideo,

@@ -19,7 +19,7 @@ export const taskade = createPiece({
 	minimumSupportedRelease: '0.30.0',
 	categories: [PieceCategory.PRODUCTIVITY],
 	description: 'collaboration platform for remote teams to organize and manage projects',
-	logoUrl: 'https://cdn.activepieces.com/pieces/taskade.png',
+	logoUrl: '/images/pieces/taskade.png',
 	authors: ['kishanprmr'],
 	actions: [
 		createTaskAction,

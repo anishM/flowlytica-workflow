@@ -24,7 +24,7 @@ import { newInvoice } from './lib/triggers/new-invoice';
 export const teamleader = createPiece({
     displayName: 'Teamleader',
     minimumSupportedRelease: '0.36.1',
-    logoUrl: 'https://cdn.activepieces.com/pieces/teamleader.png',
+    logoUrl: '/images/pieces/teamleader.png',
     categories: [PieceCategory.SALES_AND_CRM, PieceCategory.BUSINESS_INTELLIGENCE],
     authors: ['owuzo','onyedikachi-david'],
     auth: teamleaderAuth,

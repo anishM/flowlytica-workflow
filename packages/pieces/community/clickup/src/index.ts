@@ -49,7 +49,7 @@ export const clickup = createPiece({
   displayName: 'ClickUp',
   description: 'All-in-one productivity platform',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/clickup.png',
+  logoUrl: '/images/pieces/clickup.png',
   categories: [PieceCategory.PRODUCTIVITY],
   auth: clickupAuth,
   actions: [

@@ -7,7 +7,7 @@ export const simplepdf = createPiece({
   description: 'PDF editing and generation tool',
   auth: PieceAuth.None(),
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/simplepdf.png',
+  logoUrl: '/images/pieces/simplepdf.png',
   authors: ["bendersej","kishanprmr","khaledmashaly","abuaboud"],
   categories: [PieceCategory.CONTENT_AND_FILES],
   actions: [],

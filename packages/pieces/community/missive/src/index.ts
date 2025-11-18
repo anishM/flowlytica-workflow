@@ -16,7 +16,7 @@ import { newContactGroup } from './lib/triggers/new-contact-group';
 export const missive = createPiece({
     displayName: 'Missive',
     minimumSupportedRelease: '0.36.1',
-    logoUrl: 'https://cdn.activepieces.com/pieces/missive.png',
+    logoUrl: '/images/pieces/missive.png',
     categories: [PieceCategory.COMMUNICATION, PieceCategory.SALES_AND_CRM],
     authors: ['owuzo', 'onyedikachi-david'],
     auth: missiveAuth,

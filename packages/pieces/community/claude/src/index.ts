@@ -16,7 +16,7 @@ export const claude = createPiece({
   displayName: 'Anthropic Claude',
   auth: claudeAuth,
   minimumSupportedRelease: '0.63.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/claude.png',
+  logoUrl: '/images/pieces/claude.png',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ['dennisrongo','kishanprmr'],
   actions: [

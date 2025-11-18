@@ -25,7 +25,7 @@ export const scenario = createPiece({
   displayName: 'Scenario',
   auth: scenarioAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/scenario.png',
+  logoUrl: '/images/pieces/scenario.png',
   authors: ['AdamSelene'],
   actions: [
     createCustomApiCallAction({

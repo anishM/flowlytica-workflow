@@ -26,7 +26,7 @@ export const mollie = createPiece({
   displayName: 'Mollie',
   auth: mollieAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/mollie.png',
+  logoUrl: '/images/pieces/mollie.png',
   authors: ['onyedikachi-david', 'Ani-4x'],
   description:
     'Automate Mollie payments, orders, refunds, customers, and invoices. Triggers on payment events and statuses.',

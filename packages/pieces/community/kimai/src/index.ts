@@ -91,7 +91,7 @@ export const kimai = createPiece({
 
   auth: kimaiAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/kimai.png',
+  logoUrl: '/images/pieces/kimai.png',
   categories: [PieceCategory.PRODUCTIVITY],
   authors: ["facferreira","kishanprmr","MoShizzle","abuaboud"],
   actions: [

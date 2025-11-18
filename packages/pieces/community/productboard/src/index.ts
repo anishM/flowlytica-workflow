@@ -16,7 +16,7 @@ export const productboard = createPiece({
     description: "Productboard is a product management tool that helps you manage your product roadmap and features.",
     categories: [PieceCategory.PRODUCTIVITY],
     minimumSupportedRelease: '0.36.1',
-    logoUrl: "https://cdn.activepieces.com/pieces/productboard.png",
+    logoUrl: "/images/pieces/productboard.png",
     authors: ["owuzo", "onyedikachi-david"],
     actions: [
         createFeature,

@@ -8,8 +8,7 @@ export const anyHookWebsocket = createPiece({
     'AnyHook Websocket enables real-time communication through AnyHook proxy server by allowing you to subscribe and listen to websocket events',
   auth: websocketCommon.auth,
   minimumSupportedRelease: '0.20.0',
-  logoUrl:
-    'https://cdn.activepieces.com/pieces/anyhook-websocket.png',
+  logoUrl: '/images/pieces/anyhook-websocket.png',
   authors: ['Swanblocks/Ahmad Shawar'],
   actions: [],
   triggers: [

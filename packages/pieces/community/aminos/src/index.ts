@@ -40,7 +40,7 @@
       auth: aminosAuth,
       categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
       minimumSupportedRelease: '0.30.0',
-      logoUrl: "https://cdn.activepieces.com/pieces/aminos.png",
+      logoUrl: "/images/pieces/aminos.png",
       authors: ["buttonsbond"],
       actions: [createUser],
       triggers: [],

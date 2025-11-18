@@ -4,7 +4,7 @@ import axiosRetry from 'axios-retry'
 
 
 export const apAxios = axios.create({
-    baseURL: 'https://api.activepieces.com',
+    baseURL: 'https://api.flowlytics.com',
     headers: {
         'Content-Type': 'application/json',
     },

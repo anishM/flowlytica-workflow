@@ -41,7 +41,7 @@ export const zagomailAuth = PieceAuth.SecretText({
 export const zagomail = createPiece({
 	displayName: 'Zagomail',
 	description: 'All-in-one email marketing and automation platform',
-	logoUrl: 'https://cdn.activepieces.com/pieces/zagomail.png',
+	logoUrl: '/images/pieces/zagomail.png',
 	authors: ['gs03dev'],
 	auth: zagomailAuth,
 	actions: [

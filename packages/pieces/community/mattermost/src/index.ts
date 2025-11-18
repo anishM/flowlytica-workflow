@@ -35,7 +35,7 @@ export const mattermost = createPiece({
   displayName: 'Mattermost',
   description: 'Open-source, self-hosted Slack alternative',
 
-  logoUrl: 'https://cdn.activepieces.com/pieces/mattermost.png',
+  logoUrl: '/images/pieces/mattermost.png',
   minimumSupportedRelease: '0.30.0',
   categories: [PieceCategory.COMMUNICATION],
   authors: ["kishanprmr","MoShizzle","khaledmashaly","abuaboud"],

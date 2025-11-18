@@ -32,7 +32,7 @@ export const peekshot = createPiece({
   displayName: 'PeekShot',
   auth: peekshotAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/peekshot.png',
+  logoUrl: '/images/pieces/peekshot.png',
   categories: [PieceCategory.PRODUCTIVITY],
   authors: ['balwant1707'],
   actions: [

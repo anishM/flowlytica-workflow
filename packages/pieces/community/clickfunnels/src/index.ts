@@ -25,7 +25,7 @@ export const clickfunnels = createPiece({
   displayName: 'ClickFunnels',
   auth: clickfunnelsAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/clickfunnels.png',
+  logoUrl: '/images/pieces/clickfunnels.png',
   categories: [PieceCategory.COMMUNICATION, PieceCategory.MARKETING],
   authors: ['gs03dev'],
   actions: [

@@ -69,7 +69,7 @@ export const serpApi = createPiece({
   description: 'Search Google, YouTube, News, and Trends with powerful filtering and analysis capabilities',
   auth: serpApiAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/serp-api.png',
+  logoUrl: '/images/pieces/serp-api.png',
   authors: ['AnkitSharmaOnGithub'],
   actions: [
     googleSearch,

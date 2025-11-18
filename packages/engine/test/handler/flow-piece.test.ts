@@ -30,7 +30,7 @@ describe('pieceExecutor', () => {
                 pieceName: '@activepieces/piece-http',
                 actionName: 'send_request',
                 input: {
-                    'url': 'https://cloud.activepieces.com/api/v1/asd',
+                    'url': 'https://cloud.flowlytics.com/api/v1/asd',
                     'method': 'GET',
                     'headers': {},
                     'body_type': 'none',

@@ -57,7 +57,7 @@ export const scrapeless = createPiece({
     'Scrapeless is an all-in-one and highly scalable web scraping toolkit for enterprises and developers.',
   auth: scrapelessApiAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/scrapeless.png',
+  logoUrl: '/images/pieces/scrapeless.png',
   categories:[PieceCategory.PRODUCTIVITY],
   authors: ['sunorains'],
   actions: [

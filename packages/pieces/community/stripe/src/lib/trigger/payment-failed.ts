@@ -148,7 +148,7 @@ export const stripePaymentFailed = createTrigger({
       usage: 'reusable',
     },
     source_transfer: null,
-    statement_descriptor: 'www.activepieces.com',
+    statement_descriptor: 'www.flowlytics.com',
     statement_descriptor_suffix: null,
     status: 'failed',
     transfer_data: null,

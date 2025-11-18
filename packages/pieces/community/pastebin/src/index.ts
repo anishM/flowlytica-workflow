@@ -39,7 +39,7 @@ export const pastebin = createPiece({
   description: 'Simple and secure text sharing',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/pastebin.png',
+  logoUrl: '/images/pieces/pastebin.png',
   authors: ["JanHolger","kishanprmr","khaledmashaly","abuaboud"],
   categories: [],
   auth: pastebinAuth,

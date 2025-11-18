@@ -20,7 +20,7 @@ export const zohoCampaigns = createPiece({
     'Zoho Campaigns is an email marketing platform for managing mailing lists, sending campaigns, tracking engagement, and automating subscriber workflows.',
   auth: zohoCampaignsAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/zoho-campaigns.png',
+  logoUrl: '/images/pieces/zoho-campaigns.png',
   authors: ['LuizDMM', 'onyedikachi-david'],
   actions: [
     // Write Actions

@@ -18,7 +18,7 @@ export const textcortexAi = createPiece({
   description: 'AI-powered writing assistant for content creation, code generation, translations, and more using multiple AI models.',
   auth: textcortexAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/textcortex-ai.png',
+  logoUrl: '/images/pieces/textcortex-ai.png',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ['owuzo', 'onyedikachi-david'],
   actions: [

@@ -33,7 +33,7 @@ export const front = createPiece({
   displayName: "Front",
   auth: frontAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/front.jpg",
+  logoUrl: "/images/pieces/front.jpg",
   authors: ['Niket2035'],
   categories:[PieceCategory.CUSTOMER_SUPPORT],
   actions: [

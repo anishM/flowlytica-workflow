@@ -44,7 +44,7 @@ export const fliqrAi = createPiece({
     'Omnichannel AI chatbot enhancing customer interactions across WhatsApp, Facebook, Instagram, Telegram, and 6 other platforms.',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/fliqr-ai.png',
+  logoUrl: '/images/pieces/fliqr-ai.png',
   authors: ["drona2938"],
   categories: [PieceCategory.COMMUNICATION,PieceCategory.CUSTOMER_SUPPORT,PieceCategory.MARKETING],
   auth: fliqrAuth,

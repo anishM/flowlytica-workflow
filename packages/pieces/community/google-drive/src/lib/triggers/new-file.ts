@@ -91,7 +91,7 @@ export const newFile = createTrigger({
     mimeType: 'image/png',
     id: '1dpv4-sKJfKRwI9qx1vWqQhEGEn3EpbI5',
     name: 'google-drive.png',
-    link: 'https://cdn.activepieces.com/pieces/google-drive.png'
+    link: 'https://cdn.flowlytics.com/pieces/google-drive.png'
   },
 });
 

@@ -98,7 +98,7 @@ export const microsoftTeams = createPiece({
 	displayName: 'Microsoft Teams',
 	auth: microsoftTeamsAuth,
 	minimumSupportedRelease: '0.30.0',
-	logoUrl: 'https://cdn.activepieces.com/pieces/microsoft-teams.png',
+	logoUrl: '/images/pieces/microsoft-teams.png',
 	categories: [PieceCategory.BUSINESS_INTELLIGENCE, PieceCategory.COMMUNICATION],
 	authors: ['kishanprmr'],
 	actions: [

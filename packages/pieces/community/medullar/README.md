@@ -1,6 +1,6 @@
 # pieces-medullar
 
-Library of [Activepieces](https://www.activepieces.com/) for [Medullar Solutions](https://www.medullar.com)
+Library of [Flowlytics - Workflow](https://www.flowlytics.com/) for [Medullar Solutions](https://www.medullar.com)
 
 ## Overview
 
@@ -14,7 +14,7 @@ Library of [Activepieces](https://www.activepieces.com/) for [Medullar Solutions
 
 ## Contributing
 
-We welcome contributions! Please refer to the [Contributing Guide](https://www.activepieces.com/docs/contributing/overview) for more details.
+We welcome contributions! Please refer to the [Contributing Guide](https://www.flowlytics.com/docs/contributing/overview) for more details.
 
 ## License
 

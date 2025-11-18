@@ -1,8 +1,9 @@
 import { PieceMetadataModel, PieceMetadataModelSummary } from '@activepieces/pieces-framework'
-import { apVersionUtil } from '@activepieces/server-shared'
+import { AppSystemProp, apVersionUtil } from '@activepieces/server-shared'
 import {
     ALL_PRINCIPAL_TYPES,
     ApEdition,
+    ApEnvironment,
     EndpointScope,
     GetPieceRequestParams,
     GetPieceRequestQuery,
@@ -24,6 +25,7 @@ import {
 import { EngineHelperPropResult, EngineHelperResponse } from 'server-worker'
 import { flowService } from '../flows/flow/flow.service'
 import { sampleDataService } from '../flows/step-run/sample-data.service'
+import { system } from '../helper/system/system'
 import { userInteractionWatcher } from '../workers/user-interaction-watcher'
 import {
     getPiecePackageWithoutArchive,
@@ -234,6 +236,11 @@ const ListVersionsRequest = {
 
 const SyncPiecesRequest = {
     config: {
-        allowedPrincipals: [PrincipalType.USER],
+        // Allow both authenticated users and unauthenticated requests in development
+        allowedPrincipals: system.get(AppSystemProp.ENVIRONMENT) === ApEnvironment.DEVELOPMENT
+            ? [PrincipalType.USER, PrincipalType.UNKNOWN]
+            : [PrincipalType.USER],
+        // Allow unauthenticated access in development for local sync
+        skipAuth: system.get(AppSystemProp.ENVIRONMENT) === ApEnvironment.DEVELOPMENT,
     },
 }

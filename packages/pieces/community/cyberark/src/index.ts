@@ -41,7 +41,7 @@ export const cyberark = createPiece({
   description: 'Manage users, groups, and access controls in CyberArk Privileged Access Management',
   auth: cyberarkAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/cyberark.png',
+  logoUrl: '/images/pieces/cyberark.png',
   authors: ['fortunamide', 'onyedikachi-david'],
   categories: [PieceCategory.PRODUCTIVITY],
   actions: [

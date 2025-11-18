@@ -67,7 +67,7 @@ export const smartsheet = createPiece({
 		'Dynamic work execution platform for teams to plan, capture, manage, automate, and report on work at scale.',
 	auth: smartsheetAuth,
 	minimumSupportedRelease: '0.36.1',
-	logoUrl: 'https://cdn.activepieces.com/pieces/smartsheet.png',
+	logoUrl: '/images/pieces/smartsheet.png',
 	categories: [PieceCategory.PRODUCTIVITY],
 	authors: ['onyedikachi-david', 'kishanprmr'],
 	actions: [

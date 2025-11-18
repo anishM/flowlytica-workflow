@@ -12,7 +12,7 @@ import mime from 'mime-types';
 import { PublicPostConversationsRequestBody } from '@dust-tt/client';
 
 export const createConversation = createAction({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.flowlytics.com/docs/developers/piece-reference/authentication,
   name: 'createConversation',
   displayName: 'Create conversation',
   description: 'Create a new conversation with a specific Dust assistant',

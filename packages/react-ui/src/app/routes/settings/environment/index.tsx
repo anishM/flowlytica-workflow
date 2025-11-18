@@ -59,7 +59,7 @@ const EnvironmentPage = () => {
                 'Connect to Git to enable version control, backup your flows, and manage multiple environments. ',
               )}
               <a
-                href="https://www.activepieces.com/docs/operations/git-sync"
+                href="https://www.flowlytics.com/docs/operations/git-sync"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"

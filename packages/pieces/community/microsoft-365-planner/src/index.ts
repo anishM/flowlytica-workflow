@@ -22,7 +22,7 @@ export const microsoft365Planner = createPiece({
     'Microsoft 365 Planner is part of the Microsoft 365 suite, offering lightweight task and bucket-based planning for teams. This integration supports creating plans, buckets, tasks, fetching them, deleting them, and custom API calls.',
   auth: microsoft365PlannerAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/microsoft-365-planner.png',
+  logoUrl: '/images/pieces/microsoft-365-planner.png',
   authors: ['LuizDMM','sanket-a11y'],
   actions: [
     // Write Actions

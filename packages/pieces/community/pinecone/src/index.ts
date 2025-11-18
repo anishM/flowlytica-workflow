@@ -54,7 +54,7 @@ export const pinecone = createPiece({
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   auth: pineconeAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/pinecone.png',
+  logoUrl: '/images/pieces/pinecone.png',
   authors: ['fortunamide', 'onyedikachi-david'],
   actions: [createIndex, upsertVector, updateVector, getVector, deleteVector, searchVector, searchIndex],
   triggers: []

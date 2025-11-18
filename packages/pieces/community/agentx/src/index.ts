@@ -16,7 +16,7 @@ export const agentx = createPiece({
   auth: AgentXAuth,
   minimumSupportedRelease: '0.36.1',
   categories:[PieceCategory.ARTIFICIAL_INTELLIGENCE],
-  logoUrl: "https://cdn.activepieces.com/pieces/agentx.png",
+  logoUrl: "/images/pieces/agentx.png",
   authors: ['Niket2035','sanket-a11y'],
   actions: [createConversationWithSingleAgent, sendMessageToExistingConversation, findMessage, searchAgents,findConversation],
   triggers: [newAgent,newConversation],

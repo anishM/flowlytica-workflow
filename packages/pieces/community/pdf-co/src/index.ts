@@ -21,7 +21,7 @@ export const pdfCo = createPiece({
 	displayName: 'PDF.co',
 	description: 'Automate PDF conversion, editing, extraction',
 	categories: [PieceCategory.PRODUCTIVITY, PieceCategory.CONTENT_AND_FILES],
-	logoUrl: 'https://cdn.activepieces.com/pieces/pdf-co.png',
+	logoUrl: '/images/pieces/pdf-co.png',
 	auth: pdfCoAuth,
 	authors: ['onyedikachi-david', 'kishanprmr'],
 	actions: [

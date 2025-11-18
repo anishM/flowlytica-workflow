@@ -1,3 +1,180 @@
+# Flowlytics - Workflow
+
+Flowlytics - Workflow is a modular workflow automation platform (Node.js + TypeScript) with:
+- Engine for flow execution
+- API server for management, triggers, and runs orchestration
+- React UI (Vite) for building, operating, and administering flows
+
+This repository is a rebranded fork focused on:
+- First‑class development and production builds
+- Self‑hosted piece registry (no dependency on Flowlytics Cloud)
+
+## Quick Start
+
+Requirements:
+- Node.js 18+
+- pnpm or npm
+
+Install deps:
+
+```bash
+pnpm i
+# or
+npm i
+```
+
+Run the full stack in development:
+
+```bash
+npm run dev
+```
+
+This starts:
+- API (development build)
+- Engine (development build)
+- React UI dev server
+
+## Build System
+
+We use Nx to orchestrate builds across the monorepo. The build targets and configurations have been tuned for explicit development vs production behavior.
+
+### Applications and Libraries
+
+- API (`packages/server/api`)
+  - Executor: esbuild
+  - Dev: sourcemaps on, no minify
+  - Prod: minified, sourcemaps off
+- Engine (`packages/engine`)
+  - Executor: webpack (node target)
+  - Dev: optimization off, sourcemaps on
+  - Prod: optimized, licenses extracted
+- React UI (`packages/react-ui`)
+  - Executor: Vite
+  - Dev: vite dev server
+  - Prod: static assets emitted to `dist/packages/react-ui`
+
+### Commands
+
+Development builds for all core projects:
+
+```bash
+npm run build:dev
+# equivalent to:
+nx run-many -t build --configuration=development --projects=server-api,engine,react-ui
+```
+
+Production builds for all core projects:
+
+```bash
+npm run build:prod
+# equivalent to:
+nx run-many -t build --configuration=production --projects=server-api,engine,react-ui
+```
+
+Serve in development (per app):
+
+```bash
+nx serve server-api --configuration=development
+nx serve engine --configuration=development
+nx serve react-ui --configuration=development
+```
+
+Preview production UI locally:
+
+```bash
+nx build react-ui --configuration=production
+nx preview react-ui
+```
+
+## Configuration (Environment)
+
+Environment variables are read via `AP_*` prefixed values. Notable variables:
+
+- AP_PIECES_SOURCE
+  - `FILE`: load pieces from local filesystem (development)
+  - `DB`: load pieces from database/registry (production)
+- AP_PIECES_SYNC_MODE
+  - `NONE`: disable auto sync (manual sync endpoint remains available) — default for Flowlytics - Workflow
+  - `LOCAL_AUTO`: schedule automatic piece metadata sync from local built pieces (hourly)
+  - `OFFICIAL_AUTO`: schedule automatic piece metadata sync from a remote registry URL
+- AP_PIECES_REGISTRY_URL
+  - Base URL for the pieces registry API used by sync (defaults to `local` to use the built pieces inside `dist/packages/pieces/`)
+  - Set to a full URL (e.g. `https://registry.example.com/api/v1/pieces`) to point at a custom registry service
+
+Example (development, local pieces):
+
+```bash
+export AP_ENVIRONMENT=dev
+export AP_PIECES_SOURCE=FILE
+export AP_PIECES_SYNC_MODE=NONE
+# Only build specific pieces locally in dev (optional)
+export AP_DEV_PIECES=google-sheets,cal-com
+npm run dev
+```
+
+Example (production, DB pieces + custom registry):
+
+```bash
+export AP_ENVIRONMENT=prod
+export AP_PIECES_SOURCE=DB
+export AP_PIECES_SYNC_MODE=OFFICIAL_AUTO
+export AP_PIECES_REGISTRY_URL=https://registry.example.com/api/v1/pieces
+npm run build:prod
+```
+
+Example (local DB sync - no external dependencies):
+
+```bash
+# Build your pieces first
+nx build flowlytics  # or build all pieces
+
+# Configure for local sync
+export AP_ENVIRONMENT=development
+export AP_PIECES_SOURCE=DB
+export AP_PIECES_REGISTRY_URL=local
+export AP_PIECES_SYNC_MODE=NONE  # or LOCAL_AUTO for hourly auto-sync
+# Optional: AP_DEV_PIECES=flowlytics (or leave unset to sync all built pieces)
+
+# Start the application
+npm run dev
+
+# Sync pieces (creates archives and saves to DB)
+npm run sync:after-dev
+# Or manually: curl -X POST http://127.0.0.1:3000/v1/pieces/sync
+```
+
+Manual pieces sync (works regardless of sync mode):
+- UI: Platform Admin → Setup → Pieces → "Sync from registry"
+- API: `POST /v1/pieces/sync` (no auth required in development)
+
+## Branding
+
+- The UI title and user‑facing strings reference “Flowlytics - Workflow”.
+- Registry related messages refer to a neutral “registry” (not “Flowlytics Cloud”).
+
+## Project Layout (selected)
+
+```
+packages/
+  engine/           # Flow execution engine (webpack build)
+  server/
+    api/            # API server (esbuild)
+    worker/         # Worker library (tsc)
+  react-ui/         # Web UI (Vite)
+```
+
+## Troubleshooting
+
+- If dev UI can’t reach the API, verify the proxy configuration in `packages/react-ui/vite.config.ts` and that the API is listening on `127.0.0.1:3000`.
+- If pieces don’t appear in development:
+  - Ensure `AP_PIECES_SOURCE=FILE`
+  - Set `AP_DEV_PIECES` to include your piece package names
+- For custom registries, verify `AP_PIECES_REGISTRY_URL` and that `POST /v1/pieces/sync` returns 200 after configuration.
+
+## License
+
+This project builds upon an open-source foundation. Review the repository license for details.
+
 
 <h1 align="center">
   <a

@@ -21,7 +21,7 @@ export const respondIo = createPiece({
   displayName: 'Respond.io',
   auth: respondIoAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/respond-io.png',
+  logoUrl: '/images/pieces/respond-io.png',
   authors: ['aryel780'],
   actions: [
     addCommentToConversation,

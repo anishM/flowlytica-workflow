@@ -15,7 +15,7 @@ export const line = createPiece({
 
   auth: lineAuth2,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/line.png',
+  logoUrl: '/images/pieces/line.png',
   categories: [PieceCategory.COMMUNICATION],
   authors: ["kishanprmr","MoShizzle","abuaboud"],
   actions: [

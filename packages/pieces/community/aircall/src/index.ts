@@ -21,7 +21,7 @@ export const aircall = createPiece({
   auth: aircallAuth,
   minimumSupportedRelease: '0.36.1',
   categories:[PieceCategory.BUSINESS_INTELLIGENCE,PieceCategory.COMMUNICATION],
-  logoUrl: 'https://cdn.activepieces.com/pieces/aircall.png',
+  logoUrl: '/images/pieces/aircall.png',
   authors: ['Sanket6652'],
   actions: [
     commentACall,

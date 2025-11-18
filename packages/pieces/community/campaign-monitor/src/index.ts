@@ -25,7 +25,7 @@ export const campaignMonitorAuth = PieceAuth.SecretText({
 export const campaignMonitor = createPiece({
     displayName: 'Campaign Monitor',
     description: 'Email marketing platform for delivering exceptional email campaigns.',
-    logoUrl: 'https://cdn.activepieces.com/pieces/campaign-monitor.png',
+    logoUrl: '/images/pieces/campaign-monitor.png',
     authors: ['AnkitSharmaOnGithub','kishanprmr'],
     auth: campaignMonitorAuth,
     actions: [

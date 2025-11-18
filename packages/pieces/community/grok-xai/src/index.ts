@@ -13,7 +13,7 @@ export const grokXai = createPiece({
   description: 'AI chatbot by xAI that answers questions, generates text, extracts data, and provides real-time insights.',
   auth: grokAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/grok-xai.png',
+  logoUrl: '/images/pieces/grok-xai.png',
   categories: [
     PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ['sparkybug'],

@@ -20,7 +20,7 @@ export const openPhone = createPiece({
   displayName: 'OpenPhone',
   auth: openPhoneAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/open-phone.png',
+  logoUrl: '/images/pieces/open-phone.png',
   authors: ['Ani-4x', 'onyedikachi-david'],
   actions: [sendMessage, createContact, updateContact, getCallSummary],
   triggers: [

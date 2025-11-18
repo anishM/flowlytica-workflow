@@ -11,7 +11,7 @@ export const kissflow = createPiece({
   categories: [PieceCategory.PRODUCTIVITY],
   auth: kissflowAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/kissflow.png',
+  logoUrl: '/images/pieces/kissflow.png',
   authors: ['danielpoonwj'],
   actions: [
     downloadAttachmentFromFormField,

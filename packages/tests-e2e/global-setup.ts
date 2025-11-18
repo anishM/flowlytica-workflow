@@ -1,7 +1,7 @@
 import { chromium } from '@playwright/test';
 import { AuthenticationPage } from './pages/authentication.page';
 
-export const DEFAULT_EMAIL = 'test@activepieces.com';
+export const DEFAULT_EMAIL = 'test@flowlytics.com';
 export const DEFAULT_PASSWORD = 'TestPassword123!@#';
 
 async function globalSetup() {

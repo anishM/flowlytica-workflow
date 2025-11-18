@@ -19,7 +19,7 @@ export const wrike = createPiece({
   displayName: "Wrike",
   auth: wrikeAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: "https://cdn.activepieces.com/pieces/wrike.png",
+  logoUrl: "/images/pieces/wrike.png",
   categories: [PieceCategory.PRODUCTIVITY],
   authors: ['owuzo','sanket-a11y'],
   actions: [

@@ -16,7 +16,7 @@ export const crisp = createPiece({
 	displayName: 'Crisp',
 	auth: crispAuth,
 	minimumSupportedRelease: '0.36.1',
-	logoUrl: 'https://cdn.activepieces.com/pieces/crisp.png',
+	logoUrl: '/images/pieces/crisp.png',
 	authors: ['kishanprmr','Ani-4x'],
 	categories:[PieceCategory.CUSTOMER_SUPPORT],
 	actions: [

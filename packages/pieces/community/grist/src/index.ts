@@ -58,7 +58,7 @@ export const grist = createPiece({
   displayName: 'Grist',
   auth: gristAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/grist.png',
+  logoUrl: '/images/pieces/grist.png',
   description: 'open source spreadsheet',
   categories: [PieceCategory.PRODUCTIVITY],
   authors: ['kishanprmr'],

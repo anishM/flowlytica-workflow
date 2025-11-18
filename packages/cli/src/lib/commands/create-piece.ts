@@ -97,7 +97,7 @@ const generateIndexTsFile = async (pieceName: string, pieceType: string) => {
       displayName: "${capitalizeFirstLetter(pieceName)}",
       auth: PieceAuth.None(),
       minimumSupportedRelease: '0.36.1',
-      logoUrl: "https://cdn.activepieces.com/pieces/${pieceName}.png",
+      logoUrl: "https://cdn.flowlytics.com/pieces/${pieceName}.png",
       authors: [],
       actions: [],
       triggers: [],

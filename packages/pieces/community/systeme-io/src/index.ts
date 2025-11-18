@@ -18,7 +18,7 @@ export const systemeIo = createPiece({
   minimumSupportedRelease: '0.36.1',
   categories: [PieceCategory.MARKETING],
   description: "Systeme.io is a CRM platform that allows you to manage your contacts, sales, and marketing campaigns.",
-  logoUrl: "https://cdn.activepieces.com/pieces/systeme-io.png",
+  logoUrl: "/images/pieces/systeme-io.png",
   authors: ['ezhil56x', 'onyedikachi-david'],
   actions: [
     createContact,

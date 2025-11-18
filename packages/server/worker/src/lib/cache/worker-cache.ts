@@ -25,6 +25,8 @@ export const workerCache = (log: FastifyBaseLogger) => ({
     async deleteStaleCache(): Promise<void> {
         try {
             const cacheDir = path.resolve(GLOBAL_CACHE_ALL_VERSIONS_PATH)
+            // Ensure cache directory exists before scanning
+            await fileSystemUtils.threadSafeMkdir(cacheDir)
             const entries = await readdir(cacheDir, { withFileTypes: true })
 
             for (const entry of entries) {

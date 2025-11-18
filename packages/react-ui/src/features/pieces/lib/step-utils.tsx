@@ -18,6 +18,10 @@ import {
   StepRunResponse,
 } from '@activepieces/shared';
 
+import codeIcon from '@/assets/img/piece/code.svg';
+import loopIcon from '@/assets/img/piece/loop.svg';
+import branchIcon from '@/assets/img/piece/branch.svg';
+import emptyTriggerIcon from '@/assets/img/piece/empty-trigger.svg';
 import {
   PieceStepMetadata,
   PrimitiveStepMetadata,
@@ -32,25 +36,25 @@ export const CORE_STEP_METADATA: Record<
 > = {
   [FlowActionType.CODE]: {
     displayName: t('Code'),
-    logoUrl: 'https://cdn.activepieces.com/pieces/code.svg',
+    logoUrl: codeIcon,
     description: t('Powerful Node.js & TypeScript code with npm'),
     type: FlowActionType.CODE as const,
   },
   [FlowActionType.LOOP_ON_ITEMS]: {
     displayName: t('Loop on Items'),
-    logoUrl: 'https://cdn.activepieces.com/pieces/loop.svg',
+    logoUrl: loopIcon,
     description: 'Iterate over a list of items',
     type: FlowActionType.LOOP_ON_ITEMS as const,
   },
   [FlowActionType.ROUTER]: {
     displayName: t('Router'),
-    logoUrl: 'https://cdn.activepieces.com/pieces/branch.svg',
+    logoUrl: branchIcon,
     description: t('Split your flow into branches depending on condition(s)'),
     type: FlowActionType.ROUTER as const,
   },
   [FlowTriggerType.EMPTY]: {
     displayName: t('Empty Trigger'),
-    logoUrl: 'https://cdn.activepieces.com/pieces/empty-trigger.svg',
+    logoUrl: emptyTriggerIcon,
     description: t('Empty Trigger'),
     type: FlowTriggerType.EMPTY as const,
   },

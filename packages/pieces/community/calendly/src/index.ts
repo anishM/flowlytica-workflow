@@ -34,7 +34,7 @@ export const calendly = createPiece({
   displayName: 'Calendly',
   description: 'Simple, modern scheduling',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/calendly.png',
+  logoUrl: '/images/pieces/calendly.png',
   categories: [PieceCategory.PRODUCTIVITY],
   authors: ["kishanprmr","MoShizzle","AbdulTheActivePiecer","khaledmashaly","abuaboud"],
   auth: calendlyAuth,

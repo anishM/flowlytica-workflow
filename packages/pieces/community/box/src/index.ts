@@ -24,7 +24,7 @@ export const box = createPiece({
 
   auth: boxAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/box.png',
+  logoUrl: '/images/pieces/box.png',
   categories: [PieceCategory.CONTENT_AND_FILES],
   authors: ["kishanprmr","MoShizzle","abuaboud"],
   actions: [

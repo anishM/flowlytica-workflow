@@ -12,7 +12,7 @@ export const browseAi = createPiece({
   displayName: 'Browse AI',
   auth: browseAiAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/browse-ai.png',
+  logoUrl: '/images/pieces/browse-ai.png',
   categories:[PieceCategory.PRODUCTIVITY],
   authors: ['aryel780'],
   actions: [

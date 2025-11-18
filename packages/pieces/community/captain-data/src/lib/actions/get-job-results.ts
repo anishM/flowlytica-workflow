@@ -9,7 +9,7 @@ import {
 import { workflowProp } from '../common';
 
 export const getJobResults = createAction({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.flowlytics.com/docs/developers/piece-reference/authentication,
   name: 'getJobResults',
   displayName: 'Get job results',
   description: 'Get all results for a specific job',

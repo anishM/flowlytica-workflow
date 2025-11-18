@@ -13,7 +13,7 @@ export const insightly = createPiece({
   displayName: 'Insightly',
   auth: insightlyAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/insightly.png',
+  logoUrl: '/images/pieces/insightly.png',
   authors: ['fortunamide', 'onyedikachi-david'],
   actions: [createRecord, updateRecord, getRecord, deleteRecord, findRecords],
   triggers: [newRecord, updatedRecord, deletedRecord]

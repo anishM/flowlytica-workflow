@@ -10,8 +10,7 @@ export const mailchain = createPiece({
   auth: mailchainCommon.auth,
   minimumSupportedRelease: '0.20.0',
   categories: [],
-  logoUrl:
-    'https://cdn.activepieces.com/pieces/mailchain.png',
+  logoUrl: '/images/pieces/mailchain.png',
   authors: ['ahmad-swanblocks'],
   actions: [getAuthenticatedUser, sendEmail],
   triggers: [],

@@ -15,7 +15,7 @@ export const vlmRun = createPiece({
   auth: vlmRunAuth,
   minimumSupportedRelease: '0.36.1',
   categories: [PieceCategory.BUSINESS_INTELLIGENCE, PieceCategory.CONTENT_AND_FILES],
-  logoUrl: 'https://cdn.activepieces.com/pieces/vlm-run.png',
+  logoUrl: '/images/pieces/vlm-run.png',
   authors: ['LuizDMM', 'sanket-a11y'],
   actions: [
     analyzeAudio,

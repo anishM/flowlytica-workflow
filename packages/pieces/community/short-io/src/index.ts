@@ -18,7 +18,7 @@ export const shortIo = createPiece({
   displayName: 'Short.io',
   auth: shortIoAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/short-io.png',
+  logoUrl: '/images/pieces/short-io.png',
   authors: ['aryel780'],
   actions: [
     createCountryTargetingRuleAction,

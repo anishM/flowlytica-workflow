@@ -9,7 +9,7 @@ export const bonjoro = createPiece({
   description: 'Send personal video messages to delight customers',
   auth: bonjoroAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/bonjoro.png',
+  logoUrl: '/images/pieces/bonjoro.png',
   categories: [PieceCategory.CUSTOMER_SUPPORT],
   authors: ["joeworkman","kishanprmr","MoShizzle","abuaboud"],
   actions: [

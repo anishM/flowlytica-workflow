@@ -24,6 +24,6 @@ Run `nx build pieces-convertkit` to build the library.
 
 # ToDo
 
-- Versioning of piece https://www.activepieces.com/docs/developers/piece-reference/piece-versioning
+- Versioning of piece https://www.flowlytics.com/docs/developers/piece-reference/piece-versioning
 - Debounce on form fields
 - Add tests(?)

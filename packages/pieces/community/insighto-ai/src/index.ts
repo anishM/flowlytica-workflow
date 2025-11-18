@@ -18,7 +18,7 @@
         required: true,
       }),
       minimumSupportedRelease: '0.36.1',
-      logoUrl: "https://cdn.activepieces.com/pieces/insighto-ai.png",
+      logoUrl: "/images/pieces/insighto-ai.png",
       authors: ['fortunamide', 'onyedikachi-david'],
       categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE, PieceCategory.COMMUNICATION],
       actions: [addTextBlobAction, upsertContactAction, makeOutboundCallAction, createCampaignAction],

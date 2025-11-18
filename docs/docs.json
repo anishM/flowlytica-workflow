@@ -492,7 +492,7 @@
   "logo": {
     "light": "./resources/logo/light.svg",
     "dark": "./resources/logo/dark.svg",
-    "href": "https://www.activepieces.com"
+    "href": "https://www.flowlytics.com"
   },
   "api": {
     "openapi": [
@@ -508,17 +508,17 @@
     "links": [
       {
         "label": "GitHub",
-        "href": "https://github.com/activepieces/activepieces"
+        "href": "https://github.com/flowlytics/workflow"
       },
       {
         "label": "Pieces",
-        "href": "https://www.activepieces.com/pieces"
+        "href": "https://www.flowlytics.com/pieces"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Get Started",
-      "href": "https://www.activepieces.com/plans"
+      "href": "https://www.flowlytics.com/plans"
     }
   },
   "seo": {
@@ -529,8 +529,8 @@
   },
   "footer": {
     "socials": {
-      "website": "https://www.activepieces.com",
-      "github": "https://github.com/activepieces/activepieces",
+      "website": "https://www.flowlytics.com",
+      "github": "https://github.com/flowlytics/workflow",
       "discord": "https://discord.gg/2jUXBKDdP8"
     }
   },

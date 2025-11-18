@@ -73,7 +73,7 @@ export const onfleet = createPiece({
 
   auth: onfleetAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/onfleet.png',
+  logoUrl: '/images/pieces/onfleet.png',
   categories: [],
   authors: ["kishanprmr","MoShizzle","abuaboud"],
   actions: [

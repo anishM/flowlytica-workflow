@@ -55,7 +55,7 @@ export const bika = createPiece({
   auth: BikaAuth,
   description: `Interactive spreadsheets with collaboration`,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/bika.png',
+  logoUrl: '/images/pieces/bika.png',
   categories: [PieceCategory.PRODUCTIVITY],
   authors: [
     'codegino'

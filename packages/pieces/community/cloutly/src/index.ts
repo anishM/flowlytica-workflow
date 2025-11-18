@@ -14,7 +14,7 @@ export const cloutly = createPiece({
   description: 'Review Management Tool',
   auth: cloutlyAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/cloutly.svg',
+  logoUrl: '/images/pieces/cloutly.svg',
   categories: [PieceCategory.MARKETING],
   authors: ['joshuaheslin'],
   actions: [

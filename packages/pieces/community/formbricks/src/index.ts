@@ -74,7 +74,7 @@ export const formbricks = createPiece({
   description: 'Open source Survey Platform',
   auth: formBricksAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/formbricks.png',
+  logoUrl: '/images/pieces/formbricks.png',
   categories: [PieceCategory.BUSINESS_INTELLIGENCE],
   authors: ['kanarelo', 'kishanprmr', 'MoShizzle', 'abuaboud'],
   actions: [

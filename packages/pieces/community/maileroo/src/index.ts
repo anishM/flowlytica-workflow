@@ -105,7 +105,7 @@ export const maileroo = createPiece({
   displayName: 'Maileroo',
   auth: mailerooAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/maileroo.png',
+  logoUrl: '/images/pieces/maileroo.png',
   categories: [
     PieceCategory.MARKETING,
     PieceCategory.BUSINESS_INTELLIGENCE,

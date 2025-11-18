@@ -28,7 +28,7 @@ export const bambooHr = createPiece({
   displayName: 'BambooHR',
   auth: bambooHrAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/bamboohr.png',
+  logoUrl: '/images/pieces/bamboohr.png',
   authors: ['AdamSelene'],
   actions: [
     createCustomApiCallAction({
